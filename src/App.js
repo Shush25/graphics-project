@@ -14,16 +14,18 @@ AOS.init({ easing: "ease-in-out", once: true });
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Menu />
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/about" component={AboutPage} />
-          </Switch>
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <div>
+            <Menu />
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/about" component={AboutPage} />
+            </Switch>
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </div>
     );
   }
 }
