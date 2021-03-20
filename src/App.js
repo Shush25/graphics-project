@@ -20,7 +20,11 @@ class App extends React.Component {
             <Menu />
             <Switch>
               <Route exact path="/graphics-project" component={HomePage} />
-              <Route exact path="/about" component={AboutPage} />
+              <Route
+                exact
+                path="/graphics-project/about"
+                component={AboutPage}
+              />
             </Switch>
             <Footer />
           </div>
