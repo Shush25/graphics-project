@@ -26,7 +26,7 @@ const Homepage = () => (
       </p>
       <br></br>
       <div align="right" data-aos="fade-up" data-aos-duration="1100">
-        <Link className="button" to="/about">
+        <Link className="button" to="/graphics-project/about">
           Learn About Us!!!
         </Link>
       </div>
