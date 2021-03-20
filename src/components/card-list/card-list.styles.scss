@@ -1,15 +1,13 @@
-.clist{
-    text-align: center;
-    align-items: center;
+.clist {
+  text-align: center;
+  align-items: center;
 }
-.card-list{
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-column-gap: var(--spacing-l);
-    grid-row-gap: var(--spacing-l);
-    max-width: var(--width-container);
-    width:100%;
-    transform: translateX(30px);
-
-    
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+  transform: translateX(30px);
 }
