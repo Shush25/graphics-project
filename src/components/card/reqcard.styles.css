@@ -1,55 +1,57 @@
-.card-container1{
-	position: relative;
-	background-color: #eeeeee;
-	border: 1px solid black;
-	border-radius: 15px;
-	padding: 25px;
-	padding-top: 0;
-	line-height: normal;
-	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
-  }
-  
-  .row1{
-	  display: flex;
-  }
+.card-container1 {
+  position: relative;
+  background-color: #eeeeee;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  padding-top: 0;
+  line-height: normal;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 50px rgba(0, 0, 0, 0.1) inset;
+}
 
-  .row2{
-	  margin-top: -20px;
-  }
+.row1 {
+  display: flex;
+}
 
-  .name{
-	  margin-top: -35px;
-	  font-size: 30px;
-  }
+.row2 {
+  margin-top: -20px;
+}
 
-  .author{
-	  margin-top: -40px;
-  }
+.name {
+  margin-top: -35px;
+  font-size: 30px;
+}
 
-  .column2{
-	flex: auto;
-	margin-top: 15px;
-  }
-  .btn{
-	  background-color: #feda78;
-	  padding: 10px;
-	  border-radius: 4px;
-	  border: 2px solid orange;
-	  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
-	  cursor: pointer;
-  }
+.author {
+  margin-top: -40px;
+}
 
-  .btn:hover{
-	background-color: black;
-	border: 2px solid black;
-	color: whitesmoke;
-  }
+.column2 {
+  flex: auto;
+  margin-top: 15px;
+}
+.btn {
+  background-color: #feda78;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid orange;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 50px rgba(0, 0, 0, 0.1) inset;
+  cursor: pointer;
+}
 
-  .deadline{
-	  font-size: 20px;
-  }
+.btn:hover {
+  background-color: black;
+  border: 2px solid black;
+  color: whitesmoke;
+}
 
-  .coins{
-	  font-size: 18px;
-	  margin-top: -15px;
-  }
+.deadline {
+  font-size: 20px;
+}
+
+.coins {
+  font-size: 18px;
+  margin-top: -15px;
+}

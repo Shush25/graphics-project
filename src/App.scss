@@ -1,72 +1,78 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-form{
-  font-family: 'Allerta Stencil',Sans-serif;
+form {
+  font-family: "Allerta Stencil", Sans-serif;
 }
-p{
+p {
   font-family: Arial, Helvetica, sans-serif;
 }
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: "Times New Roman", Times, serif;
 }
-img{
-    margin-bottom:20px;
-    overflow: hidden;
-    height: auto;
-    transform: translateX(30px);
+img {
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: auto;
+  transform: translateX(30px);
 }
-h1,h2,h3,p{
-    margin-bottom:20px;
-    overflow: hidden;
-    height: auto;
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: auto;
+  transform: translateY(30px);
+}
+[data-aos="custom-slideUp"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+
+  &.aos-animate {
     transform: translateY(30px);
+    opacity: 0;
   }
-[data-aos="custom-slideUp"]{
-    opacity:0;
-    transition-property: transform,opacity;
-
-    &.aos-animate{
-      transform: translateY(30px);
-      opacity:0;
-    }
-    &.aos-animate{
-        opacity:0.2;
-    }
-    &.aos-animate{
-        opacity:1;
-        transform: translateY(0px);
-    }
+  &.aos-animate {
+    opacity: 0.2;
+  }
+  &.aos-animate {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
-[data-aos="custom-slideIn"]{
-    opacity:0;
-    transition-property: transform,opacity;
+[data-aos="custom-slideIn"] {
+  opacity: 0;
+  transition-property: transform, opacity;
 
-    &.aos-animate{
-      transform: translateX(30px) scale(.2);
-      opacity:0;
-    }
-    &.aos-animate{
-        opacity:0.2;
-    }
-    &.aos-animate{
-        opacity:1;
-        transform: translateX(0px) scale(1);
-    }
+  &.aos-animate {
+    transform: translateX(30px) scale(0.2);
+    opacity: 0;
+  }
+  &.aos-animate {
+    opacity: 0.2;
+  }
+  &.aos-animate {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
 }
-[data-aos="custom-slideDown"]{
-  opacity:0;
-  transition-property: transform,opacity;
+[data-aos="custom-slideDown"] {
+  opacity: 0;
+  transition-property: transform, opacity;
 
-  &.aos-animate{
+  &.aos-animate {
     transform: translateY(-30px);
-    opacity:0;
+    opacity: 0;
   }
-  &.aos-animate{
-      opacity:0.2;
+  &.aos-animate {
+    opacity: 0.2;
   }
-  &.aos-animate{
-      opacity:1;
-      transform: translateY(0px);
+  &.aos-animate {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }

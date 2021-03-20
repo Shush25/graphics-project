@@ -4,13 +4,13 @@ $red: tomato;
 $standard: 10px;
 $card-height: 450px;
 $card-width: 300px;
-.imgsty{
-    width: 70%;
-    height: auto;
-    margin: 10% 15%;
-    margin-bottom: 3%;
-    border-radius: 50%;
-    float: center;
+.imgsty {
+  width: 70%;
+  height: auto;
+  margin: 10% 15%;
+  margin-bottom: 3%;
+  border-radius: 50%;
+  float: center;
 }
 .outer-div,
 .inner-div {
@@ -45,7 +45,6 @@ $card-width: 300px;
     opacity: 1;
     top: 0;
   }
-
 
   &:hover .front__footer {
     opacity: 0;
@@ -113,7 +112,7 @@ $card-width: 300px;
 
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .4px;
+    letter-spacing: 0.4px;
 
     border: 2px solid $red;
     padding: 8px 15px;

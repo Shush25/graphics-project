@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from "../../assets/logo1.svg";
 
 import "./menu.styles.scss";
 
@@ -11,7 +10,11 @@ const Menu = () => (
     data-aos-duration="900"
   >
     <Link className="logo-container" to="/">
-      <Logo className="logo" />
+      <img
+        src={require("../../assets/logo.png")}
+        className="logo"
+        alt="not here ?"
+      />
     </Link>
     <nav className="temp">
       <ul className="menu">
