@@ -45,7 +45,7 @@ const team_members = [
   {
     id: 5,
     name: "Ashish Das",
-    Job: "C-Sharp Enemy Scripter",
+    Job: "C# Enemy Scriptor",
     github: "https://github.com/Sugar3201",
     linkdin: "https://www.linkedin.com/in/ashish-das-6a7960200",
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
@@ -55,7 +55,7 @@ const team_members = [
   {
     id: 6,
     name: "Rupak",
-    Job: "C-Sharp Powers Scriptor",
+    Job: "C# Powers Scriptor",
     github: "https://github.com/rupak-20",
     linkdin: "http://www.linkedin.com/in/rupak-swami-071468190",
     insta: "",
@@ -65,7 +65,7 @@ const team_members = [
   {
     id: 7,
     name: "Karthikeyan Sugavanan",
-    Job: "C-Sharp Weapons Scriptor",
+    Job: "C# Weapons Scriptor",
     github: "https://github.com/KarthikeyanSugavanan",
     linkdin: "https://www.linkedin.com/in/karthikeyan-sugavanan-01677718b",
     insta: "",
