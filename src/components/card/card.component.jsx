@@ -39,38 +39,48 @@ export const Card = (props) => (
           </div>
         </div>
         <div className="back">
-          <div className="social-media-wrapper">
-            <a href={props.member.email} className="social-icon">
-              <FontAwesomeIcon
-                icon={["fab", "google"]}
-                aria-hidden="true"
-                className="fab"
-              />
-              {null}
-            </a>
-            <a href={props.member.github} className="social-icon">
-              <FontAwesomeIcon
-                icon={["fab", "github"]}
-                aria-hidden="true"
-                className="fab"
-              />
-              {null}
-            </a>
-            <a href={props.member.linkdin} className="social-icon">
-              <FontAwesomeIcon
-                icon={["fab", "linkedin-in"]}
-                aria-hidden="true"
-                className="fab"
-              />
-              {null}
-            </a>
-            <a href={props.member.insta} className="social-icon">
-              <FontAwesomeIcon
-                icon={["fab", "instagram"]}
-                aria-hidden="true"
-                className="fab"
-              />
-              {null}
+          <div className="back-container">
+            <div className="social-media-wrapper">
+              <a href={props.member.email} className="social-icon">
+                <FontAwesomeIcon
+                  icon={["fab", "google"]}
+                  aria-hidden="true"
+                  className="fab"
+                />
+                {null}
+              </a>
+              <a href={props.member.github} className="social-icon">
+                <FontAwesomeIcon
+                  icon={["fab", "github"]}
+                  aria-hidden="true"
+                  className="fab"
+                />
+                {null}
+              </a>
+              <a href={props.member.linkdin} className="social-icon">
+                <FontAwesomeIcon
+                  icon={["fab", "linkedin-in"]}
+                  aria-hidden="true"
+                  className="fab"
+                />
+                {null}
+              </a>
+              <a href={props.member.insta} className="social-icon">
+                <FontAwesomeIcon
+                  icon={["fab", "instagram"]}
+                  aria-hidden="true"
+                  className="fab"
+                />
+                {null}
+              </a>
+            </div>
+          </div>
+          <div className="ProfileButton">
+            <a
+              href={`/graphics-project/profile/${props.member.id}`}
+              className="Profile-link"
+            >
+              Profile
             </a>
           </div>
         </div>

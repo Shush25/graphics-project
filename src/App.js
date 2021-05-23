@@ -6,6 +6,7 @@ import "./App.scss";
 
 import HomePage from "./pages/homepage/homepage.component";
 import AboutPage from "./pages/aboutpage/aboutpage.component";
+import { ProfilePage } from "./pages/profilepage/profilepage.component";
 import Menu from "./components/menu/menu.component";
 import Footer from "./components/footer/footer.component";
 
@@ -24,6 +25,11 @@ class App extends React.Component {
                 exact
                 path="/graphics-project/about"
                 component={AboutPage}
+              />
+              <Route
+                exact
+                path="/graphics-project/profile/:userId"
+                component={ProfilePage}
               />
             </Switch>
             <Footer />
