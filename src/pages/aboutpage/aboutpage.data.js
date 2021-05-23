@@ -1,6 +1,6 @@
 const team_members = [
   {
-    id: 1,
+    id: 0,
     name: "Shushant Kumar Singh",
     Job: "React Developer, Unity Game Developer",
     email: "mailto:shushantkumar.singh2019@vitstudent.ac.in",
@@ -9,9 +9,24 @@ const team_members = [
     insta: "",
     imageUrl:
       "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
+    description: "Shushant Desicription",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 2,
+    id: 1,
     name: "Apoorv Yadav",
     Job: "React Developer, Graphics and Level Designer",
     email: "mailto:apoorv.yadav2019@vitstudent.ac.in",
@@ -20,9 +35,24 @@ const team_members = [
     insta: "",
     imageUrl:
       "https://lh3.googleusercontent.com/ARVj1C0lnGyiwERJZWQXMfzG-gBbQDPm3zzH9qw1RNXvhMVyp31hzFrb1IpLJtBBdouGffMhu2r_6gUeQzwivrwUpdXV0wxgC1cuZmPFB-GQeZwouXJKIMJ8KsL2NmYINwb2yjDufw",
+    description: "Apoorv Description",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 3,
+    id: 2,
     name: "Divyanu Baheti",
     Job: "Graphics and Level Designer",
     github: "https://github.com/Divyanu",
@@ -30,9 +60,24 @@ const team_members = [
     insta: "",
     email: "mailto:divyanu.baheti2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    description: "Divyanu Discription",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 4,
+    id: 3,
     name: "Rishi Mungia",
     Job: "Unity Game Developer",
     github: "https://github.com/rishimungia",
@@ -41,9 +86,24 @@ const team_members = [
     email: "mailto:rishi.mungia2019@vitstudent.ac.in",
     imageUrl:
       "https://lh3.googleusercontent.com/pw/ACtC-3c4cg49DSJfZ5KOYAEuipus930DTLm8eszaUZZc0W7jIC1VWuiQ4wwRpDAIDwSwGMkkXJuwSasnquuNlpRCUMFDIrY0gvELxU1_NKl1500ZmqBwX2J1Cxqckc36BrxZ_8YrtgU9xV-FpNQmSNmPtibM=s657-no?authuser=0",
+    description: "Rishi Description",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 5,
+    id: 4,
     name: "Ashish Das",
     Job: "C# Enemy Scriptor",
     github: "https://github.com/Sugar3201",
@@ -51,9 +111,24 @@ const team_members = [
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
     email: "mailto:ashish.das2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    description: "Ashish Description",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 6,
+    id: 5,
     name: "Rupak",
     Job: "C# Powers Scriptor",
     github: "https://github.com/rupak-20",
@@ -61,9 +136,24 @@ const team_members = [
     insta: "",
     email: "mailto:rupak.swami2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    description: "Rupak Description",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
   },
   {
-    id: 7,
+    id: 6,
     name: "Karthikeyan Sugavanan",
     Job: "C# Weapons Scriptor",
     github: "https://github.com/KarthikeyanSugavanan",
@@ -72,6 +162,21 @@ const team_members = [
     email: "mailto:karthikeyan.sugavanan2019@vitstudent.ac.in",
     imageUrl:
       "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
-  }
+    description: "Karthikeyan Description",
+    contribution: [
+      {
+        id: 0,
+        title: "title0",
+        description: "description0",
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 1,
+        title: "title1",
+        description: "description1",
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+    ],
+  },
 ];
 export default team_members;

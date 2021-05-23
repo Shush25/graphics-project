@@ -1,3 +1,15 @@
+The main game files are in the folder ProjectG.<br/>
+
+# Our Team:
+
+Shushant Kumar Singh - 19BCE1620<br/>
+Apoorv Yadav - 19BCE1163<br/>
+Rishi Mungia - 19BCE1647<br/>
+Divyanu Baheti - 19BCE1045<br/>
+Ashish Das - 19BCE1160<br/>
+Karthikeyan Sugavanan - 19BCE1682<br/>
+Rupak - 19BCE1016<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
