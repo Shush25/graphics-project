@@ -2,7 +2,7 @@ const team_members = [
   {
     id: 0,
     name: "Shushant Kumar Singh",
-    Job: "React Developer, Unity Game Developer -Weapons and Power Designer",
+    Job: "React Developer, C# Coder",
     email: "mailto:shushantkumar.singh2019@vitstudent.ac.in",
     github: "https://github.com/Shush25",
     linkdin: "https://www.linkedin.com/in/shushant-kumar-singh-bb016b1b6/",
@@ -44,7 +44,7 @@ const team_members = [
   {
     id: 1,
     name: "Apoorv Yadav",
-    Job: "React Developer, Unity Game Developer -Graphics and Level Designer",
+    Job: "React Developer, Unity Game Developer, Graphics Designer",
     email: "mailto:apoorv.yadav2019@vitstudent.ac.in",
     github: "https://github.com/Apoorv-17",
     linkdin: "https://www.linkedin.com/in/apoorv-yadav-1a54571b7/",
@@ -86,7 +86,7 @@ const team_members = [
   {
     id: 2,
     name: "Divyanu Baheti",
-    Job: "Unity Game Developer - Graphics and Level Designer",
+    Job: "ML Analyst, Graphics Designer",
     github: "https://github.com/Divyanu",
     linkdin: "https://www.linkedin.com/in/divyanu-baheti-23a5a0185",
     insta: "",
@@ -127,7 +127,7 @@ const team_members = [
   {
     id: 3,
     name: "Rishi Mungia",
-    Job: "Unity Game Developer - Main Character Designer",
+    Job: "Unity Game Developer, C# Coder",
     github: "https://github.com/rishimungia",
     linkdin: "https://www.linkedin.com/in/rishi-mungia-7281051b5",
     insta: "",
@@ -169,7 +169,7 @@ const team_members = [
   {
     id: 4,
     name: "Ashish Das",
-    Job: "Unity Game Developer - Enemy Type 1 Designer",
+    Job: "C# Coder, AI Analyst",
     github: "https://github.com/Sugar3201",
     linkdin: "https://www.linkedin.com/in/ashish-das-6a7960200",
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
@@ -210,7 +210,7 @@ const team_members = [
   {
     id: 5,
     name: "Rupak",
-    Job: "Unity Game Developer - Enemy Type 2 Designer",
+    Job: "Sprite Animator, C# Coder",
     github: "https://github.com/rupak-20",
     linkdin: "http://www.linkedin.com/in/rupak-swami-071468190",
     insta: "",
@@ -251,7 +251,7 @@ const team_members = [
   {
     id: 6,
     name: "Karthikeyan Sugavanan",
-    Job: "Unity Game Developer - Enemy Type 3 Designer",
+    Job: "Blender, Sprite Animator",
     github: "https://github.com/KarthikeyanSugavanan",
     linkdin: "https://www.linkedin.com/in/karthikeyan-sugavanan-01677718b",
     insta: "",
