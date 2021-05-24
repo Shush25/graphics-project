@@ -5,7 +5,6 @@ import "./profilepage.styles.scss";
 
 export const ProfilePage = (props) => {
   const currentUser = props.match.params.userId;
-  //return <div>{team_members[currentUser].name}</div>;
   return (
     <div className="profile-container">
       <div
@@ -46,7 +45,7 @@ export const ProfilePage = (props) => {
           >
             <h1>My Contribution's to this Project</h1>
           </div>
-          <div className="features">
+          <div className="features contri">
             {team_members[currentUser].contribution.map((contribution) => (
               <ContributionList
                 key={contribution.id}

@@ -14,13 +14,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -40,13 +56,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -65,13 +97,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -91,13 +139,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -116,13 +180,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -141,13 +221,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
@@ -167,13 +263,29 @@ const team_members = [
       {
         id: 0,
         title: "title0",
-        description: "description0",
-        imageUrl: require("../../assets/home-github.jpg"),
       },
       {
         id: 1,
+        description: "description0",
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/home-github.jpg"),
+      },
+      {
+        id: 3,
         title: "title1",
+      },
+      {
+        id: 4,
         description: "description1",
+      },
+      {
+        id: 5,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 6,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],
