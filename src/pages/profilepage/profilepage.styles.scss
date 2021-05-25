@@ -73,6 +73,8 @@
   padding-top: 18px;
   font-size: 18px;
   text-align: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .work-title {
@@ -119,4 +121,5 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  text-align: center;
 }
