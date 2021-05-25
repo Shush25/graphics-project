@@ -3,10 +3,21 @@
   font-weight: 900;
   margin-bottom: 20px;
   margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
 }
+
+.contri-image-container {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .contri-image {
   position: relative;
   max-width: 100%;
+  align-items: center;
 }
 .contri-para {
   font-size: 1.1rem;
@@ -15,4 +26,6 @@
   line-height: 1.4;
   margin-bottom: 20px;
   text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
 }

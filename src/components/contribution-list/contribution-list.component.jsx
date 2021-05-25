@@ -26,7 +26,7 @@ export const ContributionList = (props) => {
         <div></div>
       )}
       {props.contribution.imageUrl ? (
-        <div className="contri-image">
+        <div className="contri-image-container">
           <img
             src={props.contribution.imageUrl}
             alt="why"

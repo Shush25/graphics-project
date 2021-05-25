@@ -51,35 +51,90 @@ const team_members = [
     insta: "",
     imageUrl:
       "https://lh3.googleusercontent.com/ARVj1C0lnGyiwERJZWQXMfzG-gBbQDPm3zzH9qw1RNXvhMVyp31hzFrb1IpLJtBBdouGffMhu2r_6gUeQzwivrwUpdXV0wxgC1cuZmPFB-GQeZwouXJKIMJ8KsL2NmYINwb2yjDufw",
-    description: "Apoorv Description",
+    description:
+      "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. I’m a React Developer and ML enthusiast who loves to learn new skills and technologies. Always willing to innovate new things which can help improve the existing technologies. Proficient in React, React-Native, Firebase, C/C++, Java and MySQL. Have developed various projects on real-life problems using React, React-Native and integrated into Machine Learning it.",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        description:
+          "My role in this project is to design the hero and different types of enemies along with the various props and artifacts used in the game using Photoshop. Along with that I did the world building of the game in Unity, where I designed the map for the game and did the graphics and level designing. I also developed the interaction of these props with each other and the game.",
       },
       {
         id: 1,
-        description: "description0",
+        title: "Description of my Contribution",
       },
       {
         id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        description:
+          "1) I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
         id: 3,
-        title: "title1",
+        title: "I) Creation of the hero using photoshop and pixel art method:",
       },
       {
         id: 4,
-        description: "description1",
+        imageUrl: require("../../assets/apoorv1.png"),
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        title: "II) Creation of Different Enemies",
       },
       {
-        id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        id: 7,
+        imageUrl: require("../../assets/apoorv2.png"),
+      },
+      {
+        id: 8,
+        title: "III) Creating the level Design for the Ground: ",
+      },
+      {
+        id: 9,
+        imageUrl: require("../../assets/apoorv3.png"),
+      },
+      {
+        id: 10,
+        imageUrl: require("../../assets/apoorv4.png"),
+      },
+      {
+        id: 11,
+        imageUrl: require("../../assets/apoorv5.png"),
+      },
+      {
+        id: 12,
+        imageUrl: require("../../assets/apoorv6.png"),
+      },
+      {
+        id: 13,
+        title: "IV) Various Props for adding details: ",
+      },
+      {
+        id: 14,
+        title: "i. Lamp",
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/apoorv7.png"),
+      },
+      {
+        id: 16,
+        title: "ii. Explosive Barrel",
+      },
+      {
+        id: 17,
+        imageUrl: require("../../assets/apoorv8.png"),
+      },
+      {
+        id: 18,
+        title: "iii. Lava",
+      },
+      {
+        id: 19,
+        title: "iv. Stone",
+      },
+      {
+        id: 20,
+        description: "2) Assembly the props and Setting up the Game World:",
       },
     ],
   },
@@ -174,36 +229,91 @@ const team_members = [
     linkdin: "https://www.linkedin.com/in/ashish-das-6a7960200",
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
     email: "mailto:ashish.das2019@vitstudent.ac.in",
-    imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    imageUrl: require("../../assets/ashish.jpeg"),
     description: "Ashish Description",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        description:
+          "Scripting of all the enemies in the game using C# language in unity because C#  is a general purpose language that is so versatile that it can reasonably be used as a scripting language in a game engine making the game easier to run on various platforms.",
       },
       {
         id: 1,
-        description: "description0",
+        title: "Description of my contribution",
       },
       {
         id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        description: "1)	Creation of nomal enemy with normal and basic attacks",
       },
       {
         id: 3,
-        title: "title1",
+        description:
+          "2)	Creation of a enemy using slight hint of machine learning, AI",
       },
       {
         id: 4,
-        description: "description1",
+        imageUrl: require("../../assets/ashish1.png"),
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        imageUrl: require("../../assets/ashish2.png"),
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        description:
+          "My field of work is adding a little hint of Artificial intelligence in this enemy to make the game more challenging. ",
+      },
+      {
+        id: 7,
+        title: "Basic Ideology while making this enemy",
+      },
+      {
+        id: 8,
+        description:
+          "Along with various difficult platform to increase the challenge for the player this enemy was created to analyse the player position at a particular time and then jump from one its particular location to the position where the player is and then after the attack jump back to a certain distance to avoid any damage from the player. ",
+      },
+      {
+        id: 9,
+        imageUrl: require("../../assets/ashish3.png"),
+      },
+      {
+        id: 10,
+        description:
+          "The enemy here is able to detect the player’s range i.e if the player is within the range of its jump ",
+      },
+      {
+        id: 11,
+        imageUrl: require("../../assets/ashish4.png"),
+      },
+      {
+        id: 12,
+        description: "then the it calculates the position",
+      },
+      {
+        id: 13,
+        imageUrl: require("../../assets/ashish5.png"),
+      },
+      {
+        id: 14,
+        description: "and then makees its jump",
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/ashish6.png"),
+      },
+      {
+        id: 16,
+        description:
+          "Along with that I have decided to add a timer of a few sec after which the same process will follow again and again making the player push its limits.",
+      },
+      {
+        id: 17,
+        imageUrl: require("../../assets/ashish7.png"),
+      },
+      {
+        id: 18,
+        description:
+          "What makes this enemy interesting is the auto position detection ability of the player. So the only way to avid being hit by this enemy would be running away from its range else eliminating the same. ",
       },
     ],
   },
