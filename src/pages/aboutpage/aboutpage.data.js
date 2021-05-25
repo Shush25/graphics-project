@@ -390,36 +390,20 @@ const team_members = [
     email: "mailto:karthikeyan.sugavanan2019@vitstudent.ac.in",
     imageUrl:
       "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
-    description: "Karthikeyan Description",
-    contribution: [
-      {
-        id: 0,
-        title: "title0",
-      },
-      {
-        id: 1,
-        description: "description0",
-      },
-      {
-        id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
-      },
-      {
-        id: 3,
-        title: "title1",
-      },
+      description: "Hey, my name is Karthikeyan Sugavanan, I am team member of the “Project G” group where we were given the task to design a 2D game from scratch as our project.",
+      contribution: [
       {
         id: 4,
-        description: "description1",
+        description: "I took the role of an Enemy attack animator and visual sound effects editor for this Computer science graphics project. ",
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        description: "As an Enemy attack animator / script writer for the game, my job is to utilize my skills and bring the game to life by allowing the user to interact with the game as the player and face the more powerful enemies, my job is to provide different enemies with different powers which can cause harm and also kill the player. The enemies are designed to freely patrol the area and eliminate any player with different powers and weapons or follow the player who enters the area. For this concept of enemy attacking animation the concept and technique of morphing has been used in the game, which allows the animation to be more real like feel and vibe while coming in contact with the enemies. This way I ensure that user can has a more enthusiastic feel with game while trying to fight against the powerful enemies.",
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
-      },
+        description: "And as a Visual sound effects editor, my job is to design a script with sound effects which will be played upon a triggering situation in the game, which provide the real vide and feel for the game and also keeps the user in touch/focused with the game. For these sound effects, Blender has been used in the game. As a sound editor, I have to find and analyse every situation in the game which requires the appropriate sound effect which provides an audio feedback to the user as sound gives feedback to the player, often in addition to visual feedback."
+      }
     ],
   },
 ];
