@@ -33,10 +33,32 @@ const team_members = [
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        styledDescription: [
+          {
+            id: 0,
+            title: "title0",
+            description: "description0",
+            imageUrl: require("../../assets/home-why.jpg"),
+          },
+        ],
       },
       {
         id: 6,
+        imageUrl: require("../../assets/home-why.jpg"),
+      },
+      {
+        id: 7,
+        styledDescription: [
+          {
+            id: 1,
+            title: "title1",
+            description: "description1",
+            imageUrl: require("../../assets/home-why.jpg"),
+          },
+        ],
+      },
+      {
+        id: 8,
         imageUrl: require("../../assets/home-why.jpg"),
       },
     ],

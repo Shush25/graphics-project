@@ -1,4 +1,5 @@
 import React from "react";
+import { Contribution } from "../contribution/contribution.component";
 import "./contribution-list.styles.scss";
 export const ContributionList = (props) => {
   return (
@@ -34,6 +35,18 @@ export const ContributionList = (props) => {
             data-aos-duration="500"
             className="contri-image"
           />
+        </div>
+      ) : (
+        <div></div>
+      )}
+      {props.contribution.styledDescription ? (
+        <div className="features">
+          {props.contribution.styledDescription.map((styledDescription) => (
+            <Contribution
+              key={styledDescription.id}
+              styledDescription={styledDescription}
+            />
+          ))}
         </div>
       ) : (
         <div></div>
