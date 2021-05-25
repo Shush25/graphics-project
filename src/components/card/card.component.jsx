@@ -23,6 +23,7 @@ export const Card = (props) => (
               data-aos-duration="1100"
             />
             <h2
+              style={{fontSize: "1.5rem"}}
               className="front_text-header"
               data-aos="custom-slideUp"
               data-aos-duration="1800"

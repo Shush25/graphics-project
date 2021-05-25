@@ -1,4 +1,4 @@
-.button {
+.git-button {
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -18,7 +18,7 @@
   font-size: 20px;
 
   &:hover {
-    background-color: gray;
+    background-color: black;
     color: white;
     border: 1px solid black;
   }
@@ -39,7 +39,7 @@
   margin-bottom: 50px;
   background-color: rgb(193, 220, 247);
   h1 {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     text-align: center;
     font-weight: 600;
   }

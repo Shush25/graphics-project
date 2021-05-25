@@ -1,8 +1,6 @@
 import React from "react";
 import "./homepage.styles.scss";
 
-import { Link } from "react-router-dom";
-
 import { Header } from "../../components/header/header.component";
 
 import Header_image from "../../assets/home.jpg";
@@ -11,11 +9,11 @@ const Homepage = () => (
   <div className="homepage">
     <Header Header_image={Header_image}>
       <h1
-        style={{ color: "white", fontSize: "50px" }}
+        style={{ color: "white", fontSize: "70px", fontFamily: "Fira Sans", textAlign: "center"}}
         data-aos="fade-up"
         data-aos-duration="700"
       >
-        Welcome to ProjectG our Graphics Project,
+        Welcome to <b>Nano Slayer</b>
       </h1>
       <p
         style={{ fontSize: "40px", textAlign: "center" }}
@@ -25,14 +23,14 @@ const Homepage = () => (
         We are working on a GAME !!!
       </p>
       <br></br>
-      <div align="right" data-aos="fade-up" data-aos-duration="1100">
-        <Link className="button" to="/graphics-project/about">
-          Learn About Us!!!
-        </Link>
+      <div align="right">
+        <a className="git-button" href="https://github.com/Apoorv-17/Nano_Slayer" target="_blank" rel="noopener noreferrer">
+          GAME REPO
+        </a>
       </div>
     </Header>
     <div className="main-heading" data-aos="fade-up" data-aos-duration="700">
-      <h1>What's the Game About ?</h1>
+      <h1>What's the Game About?</h1>
     </div>
     <div className="features">
       <div className="blocks">
@@ -63,7 +61,7 @@ const Homepage = () => (
           data-aos-duration="500"
         />
         <div className="para" data-aos="slide-left" data-aos-duration="500">
-          <h1>What will the game contain ?</h1>
+          <h1>What will the game contain?</h1>
           <p>
             The game will feature 2 or 3 levels with variety of enemies and
             powers.
@@ -73,7 +71,7 @@ const Homepage = () => (
       </div>
       <div className="blocks">
         <div className="para" data-aos="slide-right" data-aos-duration="500">
-          <h1>Why Choose a Game as project ?</h1>
+          <h1>Why Choose a Game as project?</h1>
           <p>
             Firstly this is an interesting project which piqued everyones
             interest in team. Secondly while designing this game we will be able

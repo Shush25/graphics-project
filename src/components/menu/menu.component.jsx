@@ -20,12 +20,12 @@ const Menu = () => (
       <ul className="menu">
         <li>
           <Link className="options" to="/graphics-project">
-            HOME
+            Home
           </Link>
         </li>
         <li>
           <Link className="options" to="/graphics-project/about">
-            ABOUT
+            About
           </Link>
         </li>
       </ul>
