@@ -92,7 +92,7 @@ const team_members = [
       {
         id: 2,
         Mdescription:
-          "1) I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
+          "<b>1)</b> I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
         id: 7,
@@ -105,7 +105,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(i) Crab Enemy: This enemy will move only in x-axis of the plane.",
+          "<b>(i) Crab Enemy:</b> This enemy will move only in x-axis of the plane.",
       },
       {
         id: 7,
@@ -114,7 +114,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(ii) Jumper Enemy: This enemy will move only in both x-axis and y-axis of the plane.",
+          "<b>(ii) Jumper Enemy:</b> This enemy will move only in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -123,7 +123,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(iii) Octopus Enemy: This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane.",
+          "<b>(iii) Octopus Enemy:</b> This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -150,20 +150,58 @@ const team_members = [
         imageUrl: require("../../assets/Apoorv/props.png"),
       },
       {
-        id: 20,
-        Mdescription: "2) Assembly the props and Setting up the Game World:",
+        id: 13,
+        heading: "III) New lava image with animation to show its movement: ",
       },
       {
-        id: 5,
-        styledDescription: [
-          {
-            id: 0,
-            title: "Sketch Design for the Map: ",
-            description: "For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop. So, this was the map after 2 or 3 tries which every voted upon to be used as the Map in the Game.",
-            imageUrl: require("../../assets/Apoorv/HandMap.jpg"),
-          },
-        ],
+        id: 15,
+        imageUrl: require("../../assets/Apoorv/lava.gif"),
       },
+      {
+        id: 20,
+        title: "2) Assembly the props and Setting up the Game World:",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Sketch Design for the Map: </b>For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop. So, this was the map after 2 or 3 tries which every voted upon to be used as the Map in the Game.",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/HandMap.jpg"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Map of the Game in Unity: </b>After combining all the props made through Photoshop according to the Map shown above this was the final output. I have used various scaling factors in the X and Y axis to make the Map look even and did the level designing next.",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/UnityMap.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Addition of 2D Collider in Unity: </b>For assets in a 2D project to have a physical presence in the Scene and be able to interact with each other, they must have a 2D Collider. A 2D Collider is a component that helps define an asset’s physical shape to determine how it will interact with other colliders in a Scene.",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "     (i)	Now adding <b>Box Collider 2D</b> in the Map: Box Collider is resizable <b>square shape</b> container. I have used it in various parts of the Game like:",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/BCollider.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "     (i)	Now adding <b>Polygon Collider 2D</b> in the Map: Box Collider is resizable polygon shape container. This one is quite complex since not all pictures are square shape. So to overcome this problem I have used polygon Collider 2D in various parts of the Game like:",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/PCollider.png"),
+      },       
     ],
   },
   {
