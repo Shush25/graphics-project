@@ -62,6 +62,7 @@ class Aboutpage extends React.Component {
               <div className="forScroll">
                 <a
                   href="https://github.com/Shush25/graphics-project"
+                  target="_blank"
                   className="scroll button"
                 >
                   Visit our Github Repository

@@ -29,35 +29,35 @@ const team_members = [
             id: 0,
             title: "Basic Weapon 1: Pistol",
             description:
-              "It is the 1st basic Weapon with the most basic mecanism out of all. It shoots one bullet at a time which travels in a stright and linear direction.",
+              "It is the 1st basic Weapon with the most basic mecanism out of all. It shoots <b>one bullet at a time</b> which travels in a <b>stright and linear direction</b>.",
             imageUrl: require("../../assets/Shushant/shush1.png"),
           },
           {
             id: 1,
             title: "Basic Weapon 2: Sword",
             description:
-              "The 2nd Basic Weapon is our traditional and most reliable weapon of all time sword. When activated an animation of sword cut is played and any enemy witin the hitbox of the sword receives damage. Can damage multiple enemies at once.",
+              "The 2nd Basic Weapon is our traditional and most reliable weapon of all time <b>sword</b>. When activated an animation of sword cut is played and any enemy witin the hitbox of the sword receives damage. Can damage <b>multiple enemies</b> at once.",
             imageUrl: require("../../assets/Shushant/shush2.PNG"),
           },
           {
             id: 2,
             title: "Power-Up 1: Shotgun",
             description:
-              "Shotgun works on the simple concept of shooting multiple bullets at the same time. After activating this powerup the normal gun the Hero has transforms into a shotgun which shoots 3 bullet's at the same time. Which can either be used to annilate any enemy in close range or can be used as a widespread attack.",
+              "Shotgun works on the simple concept of shooting <b>multiple bullets</b> at the same time in <b>three different directions</b>. After activating this powerup the normal gun transforms into a shotgun which shoots <b>3 bullet's</b> at the same time. Which can either be used to annilate any enemy in <b>close range</b> or can be used as a <b>widespread attack.</b>",
             imageUrl: require("../../assets/Shushant/shush3.PNG"),
           },
           {
             id: 3,
             title: "Power-Up 2: Sword Throw",
             description:
-              "This Power-up gives Hero the power to throw his sword in the forward direction damaging all the enemies which comes in contact with it. In short it converts the normal sword slash attack to the sword throw attack.",
+              "This Power-up gives Hero the power to <b>throw his sword in the forward direction</b> damaging all the enemies which comes in contact with it. In short it converts the normal sword slash attack to the sword throw attack.",
             imageUrl: require("../../assets/Shushant/shush4.PNG"),
           },
           {
             id: 4,
             title: "Power-Up 3: Machine Gun",
             description:
-              "The third power-up is the all-mighty machine gun use this power-up to completely annihilate your enemies. Shoots continues bullets with a very minimal delay.",
+              "The third power-up is the all-mighty machine gun use this power-up to completely annihilate your enemies. Shoots <b>continues bullets</b> with a very minimal delay.",
             imageUrl: require("../../assets/Shushant/shush5.PNG"),
           },
         ],
@@ -69,7 +69,7 @@ const team_members = [
       {
         id: 5,
         Mdescription:
-          "At first glance the power-ups seems too Over powered and game breaking. That's why the concept of Weapon Point was introduced. Activating each of the power-up uses a certain number of weapon point which can only be gained by defeating enemies. Other contraints are also placed to further balance these power-ups <br><br><b>Constraint 1:</b> When a Power-up is active killing enemies dosn't reward any weapon point.<br><b>Constraint 2:</b> Weapon points are capped at 1000 points.",
+          "At first glance the power-ups seems too Over powered and game breaking. That's why the concept of <b>Weapon Point</b> was introduced. Activating each of the power-up <b>uses a certain amount of weapon points</b> which can only be gained by defeating enemies. Other contraints are also placed to further balance these power-ups <br><br><b>Constraint 1:</b> When a Power-up is active killing enemies dosn't reward any weapon point.<br><b>Constraint 2:</b> Weapon points are capped at 1000 points.",
       },
       {
         id: 6,
@@ -78,7 +78,7 @@ const team_members = [
       {
         id: 7,
         Mdescription:
-          "<b>Constraint 3:</b> The Player Cannot activate 2 or more power-up at the same time.",
+          "<b>Constraint 3:</b> Power-Up Only last's for 10 seconds.<br><b>Constraint 4:</b> The Player Cannot activate 2 or more power-up at the same time.",
       },
       {
         id: 8,
@@ -87,7 +87,7 @@ const team_members = [
       {
         id: 9,
         Mdescription:
-          "<br><b>Constraint 4:</b> Every Sword attack has a fireDelay of .4sec. and every Bullet attack has a fireDealy of .6sec only exception being Machine Gun. This is done so that the player can't spam his way through the game.",
+          "<br><b>Constraint 5:</b> Every Sword attack has a fireDelay of .4sec. and every Bullet attack has a fireDealy of .6sec only exception being Machine Gun. This is done so that the player can't spam his way through the game.",
       },
       {
         id: 10,
@@ -100,7 +100,7 @@ const team_members = [
       {
         id: 12,
         Mdescription:
-          "The backround theme music of the game, basic game sounds like Jump, Shoot, Collision, Sword Slashing, Sword Throwing were added by implementing a very simple and reusable sound script in unity. The sound is made once in the main sound manager script which can then be imported to any other script in the game and a sound effect can be triggered with just 1 line of code.",
+          "The backround theme music of the game, basic game sounds like Jump, Shoot, Collision, Sword Slashing, Sword Throwing were added by implementing a very <b>simple and reusable</b> sound script in unity. The sound is made once in the main sound manager script which can then be <b>imported to any other script</b> in the game and a sound effect can be triggered with just 1 line of code.",
       },
       {
         id: 13,
@@ -119,6 +119,14 @@ const team_members = [
       {
         id: 16,
         imageUrl: require("../../assets/Shushant/shush10.PNG"),
+      },
+      {
+        heading:
+          "Playing Sword-Slash and Sword-Throw Sound with just 1 line of code",
+      },
+      {
+        id: 17,
+        imageUrl: require("../../assets/Shushant/shush11.PNG"),
       },
     ],
   },
@@ -258,7 +266,7 @@ const team_members = [
       {
         id: 0,
         imageUrl: require("../../assets/Apoorv/PCollider.png"),
-      },       
+      },
     ],
   },
   {
@@ -271,7 +279,8 @@ const team_members = [
     email: "mailto:divyanu.baheti2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
     profile: "https://www.w3schools.com/howto/img_avatar.png",
-    description: "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. A very curious person with an ambition to contribute to the society and make the world a better place through the means of Computer Science. Proficient in  Web Devlopement, NodeJS, C/C++, PHP, Java, MySQL, MongoDB. Currently working on a Project based on ML.",
+    description:
+      "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. A very curious person with an ambition to contribute to the society and make the world a better place through the means of Computer Science. Proficient in  Web Devlopement, NodeJS, C/C++, PHP, Java, MySQL, MongoDB. Currently working on a Project based on ML.",
     contribution: [
       {
         id: 0,
@@ -279,7 +288,8 @@ const team_members = [
       },
       {
         id: 1,
-        description: "My role in this project is to design our Hero (Player) and various weapons our player has in its armoury along with the various props and artefacts used in the game using Photoshop. Along with that I trained my ML model to predict the difficulty  of our game and I have made the emission maps that were required for the lighting of various elements that is staged in our game.",
+        description:
+          "My role in this project is to design our Hero (Player) and various weapons our player has in its armoury along with the various props and artefacts used in the game using Photoshop. Along with that I trained my ML model to predict the difficulty  of our game and I have made the emission maps that were required for the lighting of various elements that is staged in our game.",
       },
       {
         id: 3,
@@ -287,16 +297,17 @@ const team_members = [
       },
       {
         id: 4,
-        Mdescription: "A.	I have used <b>Photoshop</b> to design the various props. I used the concept of <b>Nearest-Neighbour</b> to get pixelated images. <b>Pixel Art</b> helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
+        Mdescription:
+          "A.	I have used <b>Photoshop</b> to design the various props. I used the concept of <b>Nearest-Neighbour</b> to get pixelated images. <b>Pixel Art</b> helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
         id: 5,
-        heading: "1)	Creation of the hero using photoshop and pixel art method: ",
+        heading:
+          "1)	Creation of the hero using photoshop and pixel art method: ",
       },
       {
         id: 6,
-        description:
-          "a)	Hero Still Position",
+        description: "a)	Hero Still Position",
       },
       {
         id: 7,
@@ -304,8 +315,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "b)	Hero Jumping Roll Position",
+        description: "b)	Hero Jumping Roll Position",
       },
       {
         id: 7,
@@ -313,8 +323,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "c)	Hero Running Shooting Position",
+        description: "c)	Hero Running Shooting Position",
       },
       {
         id: 7,
@@ -322,8 +331,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "d)	HERO Shoot-Up Position",
+        description: "d)	HERO Shoot-Up Position",
       },
       {
         id: 7,
@@ -335,8 +343,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "a)	Machine Gun",
+        description: "a)	Machine Gun",
       },
       {
         id: 9,
@@ -344,8 +351,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "b)	Sword",
+        description: "b)	Sword",
       },
       {
         id: 9,
@@ -353,8 +359,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
-          "c)	Shot-Gun",
+        description: "c)	Shot-Gun",
       },
       {
         id: 9,
@@ -386,7 +391,8 @@ const team_members = [
       },
       {
         id: 20,
-        title: "B) Implementing ML and Training My ML model with the data from the game:",
+        title:
+          "B) Implementing ML and Training My ML model with the data from the game:",
       },
       {
         id: 2,
@@ -395,8 +401,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Made Use of RandomRegressorModel :-</u>",
+        Mdescription: "<u>Made Use of RandomRegressorModel :-</u>",
       },
       {
         id: 0,
@@ -404,8 +409,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Some Important Libraries Used :-</u>",
+        Mdescription: "<u>Some Important Libraries Used :-</u>",
       },
       {
         id: 0,
@@ -413,8 +417,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>The Parameteres Used were :-</u>",
+        Mdescription: "<u>The Parameteres Used were :-</u>",
       },
       {
         id: 0,
@@ -431,8 +434,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Trained the Model :-</u>",
+        Mdescription: "<u>Trained the Model :-</u>",
       },
       {
         id: 0,
@@ -440,8 +442,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Performed Various Cross-Validations :-</u>",
+        Mdescription: "<u>Performed Various Cross-Validations :-</u>",
       },
       {
         id: 0,
@@ -449,8 +450,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Improved My Model by Using Hyperparametres :-</u>",
+        Mdescription: "<u>Improved My Model by Using Hyperparametres :-</u>",
       },
       {
         id: 0,
@@ -458,8 +458,7 @@ const team_members = [
       },
       {
         id: 2,
-        Mdescription:
-          "<u>Final Model Score :-</u>",
+        Mdescription: "<u>Final Model Score :-</u>",
       },
       {
         id: 0,
