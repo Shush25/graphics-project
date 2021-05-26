@@ -94,6 +94,10 @@ const team_members = [
           "1) I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
+        id: 7,
+        imageUrl: require("../../assets/Apoorv/NNA.jpg"),
+      },
+      {
         id: 5,
         heading: "I) Creation of Different Enemies using Pixel Art method: ",
       },
@@ -143,7 +147,18 @@ const team_members = [
       },
       {
         id: 20,
-        description: "2) Assembly the props and Setting up the Game World:",
+        Mdescription: "2) Assembly the props and Setting up the Game World:",
+      },
+      {
+        id: 5,
+        styledDescription: [
+          {
+            id: 0,
+            title: "Sketch Design for the Map: ",
+            description: "For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop. So, this was the map after 2 or 3 tries which every voted upon to be used as the Map in the Game.",
+            imageUrl: require("../../assets/Apoorv/HandMap.jpg"),
+          },
+        ],
       },
     ],
   },
