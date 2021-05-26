@@ -17,14 +17,26 @@ export const Contribution = (props) => {
           />
           <div className="para" data-aos="slide-left" data-aos-duration="500">
             <h1>{props.styledDescription.title}</h1>
-            <p>{props.styledDescription.description}</p>
+            <p>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: props.styledDescription.description,
+                }}
+              />
+            </p>
           </div>
         </div>
       ) : (
         <div className="blocks">
           <div className="para" data-aos="slide-right" data-aos-duration="500">
             <h1>{props.styledDescription.title}</h1>
-            <p>{props.styledDescription.description}</p>
+            <p>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: props.styledDescription.description,
+                }}
+              />
+            </p>
           </div>
           <img
             src={props.styledDescription.imageUrl}
