@@ -7,61 +7,118 @@ const team_members = [
     github: "https://github.com/Shush25",
     linkdin: "https://www.linkedin.com/in/shushant-kumar-singh-bb016b1b6/",
     insta: "",
-    profile:
-      "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
+    profile: require("../../assets/Shushant/profile.jpg"),
     imageUrl:
       "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
-    description: "Shushant Desicription",
+    description:
+      "I am Shushant, currently pursuing my B-Tech in CSE from VIT Chennai. A game enthusiast and procrastinator by nature but a Programmer and workaholic by profession. I have worked and contributed on a wide range of projects ranging from simple projects like snake game to the start-up project like real-time Buss tracking System. I am a full-stack Web-Developer with proficiency in modern frameworks like React and React-native. C/C++ is my strongest programming language followed by JavaScript, Java, Python and C#.",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        Mdescription:
+          "My role in this project is to develop a <b>Power Up and Weapon System</b> for the Hero (Player) to make the game more <b>diverse</b> by giving the Player freedom to develop their <b>own personal play style</b> while playing the game. With the introduction of <b>weapon points</b> in the game it also provides a new layer to the strategy aspect of the game which in turn makes the game more <b>fun and engaging.</b> I also added the <b>Sound Effects</b> which further enhanced the user experience while playing the game. The <b>Webpage</b> in which you are on right now is also designed by me.",
       },
       {
         id: 1,
-        description: "description0",
-      },
-      {
-        id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        title: "Weapons and PowerUp's",
       },
       {
         id: 3,
-        title: "title1",
-      },
-      {
-        id: 4,
-        description: "description1",
-      },
-      {
-        id: 5,
         styledDescription: [
           {
             id: 0,
-            title: "title0",
-            description: "description0",
-            imageUrl: require("../../assets/home-why.jpg"),
+            title: "Basic Weapon 1: Pistol",
+            description:
+              "It is the 1st basic Weapon with the most basic mecanism out of all. It shoots one bullet at a time which travels in a stright and linear direction.",
+            imageUrl: require("../../assets/Shushant/shush1.png"),
+          },
+          {
+            id: 1,
+            title: "Basic Weapon 2: Sword",
+            description:
+              "The 2nd Basic Weapon is our traditional and most reliable weapon of all time sword. When activated an animation of sword cut is played and any enemy witin the hitbox of the sword receives damage. Can damage multiple enemies at once.",
+            imageUrl: require("../../assets/Shushant/shush2.PNG"),
+          },
+          {
+            id: 2,
+            title: "Power-Up 1: Shotgun",
+            description:
+              "Shotgun works on the simple concept of shooting multiple bullets at the same time. After activating this powerup the normal gun the Hero has transforms into a shotgun which shoots 3 bullet's at the same time. Which can either be used to annilate any enemy in close range or can be used as a widespread attack.",
+            imageUrl: require("../../assets/Shushant/shush3.PNG"),
+          },
+          {
+            id: 3,
+            title: "Power-Up 2: Sword Throw",
+            description:
+              "This Power-up gives Hero the power to throw his sword in the forward direction damaging all the enemies which comes in contact with it. In short it converts the normal sword slash attack to the sword throw attack.",
+            imageUrl: require("../../assets/Shushant/shush4.PNG"),
+          },
+          {
+            id: 4,
+            title: "Power-Up 3: Machine Gun",
+            description:
+              "The third power-up is the all-mighty machine gun use this power-up to completely annihilate your enemies. Shoots continues bullets with a very minimal delay.",
+            imageUrl: require("../../assets/Shushant/shush5.PNG"),
           },
         ],
+      },
+      {
+        id: 4,
+        title: "Balancing Power-Ups",
+      },
+      {
+        id: 5,
+        Mdescription:
+          "At first glance the power-ups seems too Over powered and game breaking. That's why the concept of Weapon Point was introduced. Activating each of the power-up uses a certain number of weapon point which can only be gained by defeating enemies. Other contraints are also placed to further balance these power-ups <br><br><b>Constraint 1:</b> When a Power-up is active killing enemies dosn't reward any weapon point.<br><b>Constraint 2:</b> Weapon points are capped at 1000 points.",
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        imageUrl: require("../../assets/Shushant/shush6.PNG"),
       },
       {
         id: 7,
-        styledDescription: [
-          {
-            id: 1,
-            title: "title1",
-            description: "description1",
-            imageUrl: require("../../assets/home-why.jpg"),
-          },
-        ],
+        Mdescription:
+          "<b>Constraint 3:</b> The Player Cannot activate 2 or more power-up at the same time.",
       },
       {
         id: 8,
-        imageUrl: require("../../assets/home-why.jpg"),
+        imageUrl: require("../../assets/Shushant/shush7.PNG"),
+      },
+      {
+        id: 9,
+        Mdescription:
+          "<br><b>Constraint 4:</b> Every Sword attack has a fireDelay of .4sec. and every Bullet attack has a fireDealy of .6sec only exception being Machine Gun. This is done so that the player can't spam his way through the game.",
+      },
+      {
+        id: 10,
+        imageUrl: require("../../assets/Shushant/shush8.PNG"),
+      },
+      {
+        id: 11,
+        title: "Audio Effects",
+      },
+      {
+        id: 12,
+        Mdescription:
+          "The backround theme music of the game, basic game sounds like Jump, Shoot, Collision, Sword Slashing, Sword Throwing were added by implementing a very simple and reusable sound script in unity. The sound is made once in the main sound manager script which can then be imported to any other script in the game and a sound effect can be triggered with just 1 line of code.",
+      },
+      {
+        id: 13,
+        heading:
+          "Initiating sounds in script (All the sound files are placed in Resources folder):",
+      },
+      {
+        id: 14,
+        imageUrl: require("../../assets/Shushant/shush9.PNG"),
+      },
+      {
+        id: 15,
+        heading:
+          "Making a function which is callable from any other scripts in the entire game",
+      },
+      {
+        id: 16,
+        imageUrl: require("../../assets/Shushant/shush10.PNG"),
       },
     ],
   },
