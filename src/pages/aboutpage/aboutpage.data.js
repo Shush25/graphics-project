@@ -648,7 +648,7 @@ const team_members = [
       {
         id: 0,
         Mdescription:
-          "Scripting of all the enemies in the game using C# language in unity because C#  is a general purpose language that is so versatile that it can reasonably be used as a scripting language in a game engine making the game easier to run on various platforms.",
+          "Scripting of an enemy in the game called Jumper using C# language in unity because C#  is a general purpose language that is so versatile that it can reasonably be used as a scripting language in a game engine making the game easier to run on various platforms.",
       },
       {
         id: 1,
