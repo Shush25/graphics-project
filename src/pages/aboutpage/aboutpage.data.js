@@ -7,7 +7,8 @@ const team_members = [
     github: "https://github.com/Shush25",
     linkdin: "https://www.linkedin.com/in/shushant-kumar-singh-bb016b1b6/",
     insta: "",
-    profile:"https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
+    profile:
+      "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
     imageUrl:
       "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
     description: "Shushant Desicription",
@@ -103,7 +104,8 @@ const team_members = [
       },
       {
         id: 6,
-        description: "(i) Crab Enemy: This enemy will move only in x-axis of the plane."
+        description:
+          "(i) Crab Enemy: This enemy will move only in x-axis of the plane.",
       },
       {
         id: 7,
@@ -111,7 +113,8 @@ const team_members = [
       },
       {
         id: 6,
-        description: "(ii) Jumper Enemy: This enemy will move only in both x-axis and y-axis of the plane."
+        description:
+          "(ii) Jumper Enemy: This enemy will move only in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -119,7 +122,8 @@ const team_members = [
       },
       {
         id: 6,
-        description: "(iii) Octopus Enemy: This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane."
+        description:
+          "(iii) Octopus Enemy: This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -216,35 +220,145 @@ const team_members = [
       "https://lh3.googleusercontent.com/pw/ACtC-3c4cg49DSJfZ5KOYAEuipus930DTLm8eszaUZZc0W7jIC1VWuiQ4wwRpDAIDwSwGMkkXJuwSasnquuNlpRCUMFDIrY0gvELxU1_NKl1500ZmqBwX2J1Cxqckc36BrxZ_8YrtgU9xV-FpNQmSNmPtibM=s657-no?authuser=0",
     profile:
       "https://lh3.googleusercontent.com/pw/ACtC-3c4cg49DSJfZ5KOYAEuipus930DTLm8eszaUZZc0W7jIC1VWuiQ4wwRpDAIDwSwGMkkXJuwSasnquuNlpRCUMFDIrY0gvELxU1_NKl1500ZmqBwX2J1Cxqckc36BrxZ_8YrtgU9xV-FpNQmSNmPtibM=s657-no?authuser=0",
-    description: "Rishi Description",
+    description:
+      "I am currently pursuing B. Tech in Computer Science from Vellore Institute of Technology, Chennai. I am a Unity Game Developer and Front-End Developer who loves to learn new bleeding edge technologies and create jaw-dropping graphics. Always willing to innovate new things which can help improve the existing technologies. Proficient in React JS, SCSS, C#, Adobe Suit and Front-end Design.",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        Mdescription:
+          "My main role in the project was to design the core Player Mechanics like Running, Jumping, Crouching, Wall-Sliding, etc. Along with that the core Game Scripts like how the Enemy and Player Health System, how different Game Objects will interact with each other and the Enemy Spawning System which is integrated with the Machine Learning Model.",
       },
       {
         id: 1,
-        description: "description0",
+        Mdescription:
+          "Apart from the Scripting, game’s Rendering and Post-Processing using the Unity’s Universal Render Pipeline was done. Which enabled the volumetrics and bloom in the map’s lights for added realism and immersion.",
       },
       {
         id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        styledDescription: [
+          {
+            id: 0,
+            title: "Player Mechanics",
+            description:
+              "The core Player Movement script was written in C# using the Unity Engine Libraries. It includes being able to Run, Jump, Double Jump, Crouching, Wall-Sliding.<br><br>The Movement Script utilizes the Unity Physics to move the player sprite in a realistic manner.<br><br><b>A.	Running:</b> This works by getting the <I>Raw Horizontal Input</I> from the input hardware and add velocity to the Player’s <I>Rigid-Body</I> in the appropriate direction.<br><b>B.	Jumping:</b> To prevent player jumping indefinitely, a <I>Transform Game Object</I> is made to check is the Player is standing on ground called <I>Ground-Check</I> and all the ground sprites need the Ground Tag.",
+            imageUrl: require("../../assets/Rishi/rishi1.png"),
+          },
+          {
+            id: 1,
+            title: "",
+            description:
+              "<b>C.	Crouching:</b> Making the Player Crouch was a little bit tricky, since we need to modify the Box Collider to get smaller so the Player can fit through tiny gaps in the map.<br><br>We also need to prevent player from standing if it is under an object so for that another Transform Game Object is made as a Ceiling-Check.<br><br>Along with that, the Weapon-Fire-Point needs to be adjusted according to the new player sprite size.",
+            imageUrl: require("../../assets/Rishi/rishi2.png"),
+          },
+          {
+            id: 2,
+            title: "",
+            description:
+              "<b>D.	Wall-Sliding:</b> Adding Wall-Sliding for the game character again required to check collision with walls in the map, so to achieve that yet another two Transform Game Objects were required one for either side of the player.<br><br>Now for the actual wall grabbing to work, the velocity in the y-axis was damped using the Mathf.Clamp(  ) function in C#.<br><br>Also, the character sprite needed to be flipped opposite to the wall so that the player could shoot even while wall-sliding, so for that the   Flip( ) function was reused from the Player Running part of the script.",
+            imageUrl: require("../../assets/Rishi/rishi3.png"),
+          },
+        ],
       },
       {
         id: 3,
-        title: "title1",
+        title: "Core-Game Mechanics:",
       },
       {
         id: 4,
-        description: "description1",
+        description:
+          "<b>A.	Player and Enemy Health System:</b> To implement this, a function takeDamage( ) was made for both the player and the enemy. This function could be called inside the Weapon Script and the Enemy Attack Scripts, respectively.<br><br>For the player, when the health became equal to zero, a respawn( ) function was implemented in the Game Manager Script to reset the game. A Heads Up Display (HUD) is also programmed to show the current health of the Player.",
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        styledDescription: [
+          {
+            id: 0,
+            title: "B. Exploding Barrel",
+            description:
+              "For this game mechanic I added two states to the barrel, normal and activated. When the enemy or player shoots the barrel, it will switch to active state and start to glow in red color as shown in the picture. And when it is shot again, it will explode.<br><br>For the explosion, the barrel creates an area effect in which all the game objects get pushed away from the explosion and if the Player or any Enemies that are in its range will get damaged using the takeDamage( ) function described above.",
+            imageUrl: require("../../assets/Rishi/rishi4.png"),
+          },
+        ],
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        Mdescription:
+          "<b>C.	Lava Script:</b> This once again uses the same takeDamage( ) function, but it is programmed to cause an instant death both for the Player and the Enemies. The Lava will also cause the Explosive Barrel to explode immediately skipping the activation state. This makes Lava an extremely dangerous part of the game!",
+      },
+      {
+        id: 7,
+        Mdescription:
+          "<b>D.	Spawn Manager:</b> This script is an integral part of the gameplay as it controls all the enemy and Power-Ups spawns in the game.<br>This script takes input from the ML model to set the difficulty of the game, by spawning Enemies / Power-Ups accordingly. This leads to some interesting outcomes based on the player’s play style sometimes resulting huge enemy hoards!",
+      },
+      {
+        id: 8,
+        title: "Rendering and Post-Processing:",
+      },
+      {
+        id: 9,
+        Mdescription:
+          "We have used Unity’s Universal Render Pipeline (URP) as the Rendering Engine of our game. This is because it supports 2D Graphics and Lighting. Whereas the HDRP pipeline is made for 3D Games and Ray-Traced applications that was not optimal in our case.",
+      },
+      {
+        id: 10,
+        Mdescription:
+          "Also, URP is a more robust and performance friendly solution for rendering in modern consoles and mobile devices.",
+      },
+      {
+        id: 11,
+        Mdescription:
+          "<b>A.	Post-Processing:</b> For our game’s artistic style, I used the Bloom Shader and Global Volume from the Unity’s URP Renderer. Since all the game textures and sprites were Pixel Art, Point Filter mode was used to prevent it from getting blurred.",
+      },
+      {
+        id: 12,
+        imageUrl: require("../../assets/Rishi/rishi5.png"),
+      },
+      {
+        id: 13,
+        Mdescription:
+          "<b>B.	Lighting:</b> It is an integral part of the game as it can make or break player’s immersion. URP provides various 2D Lights that can be added to the scene to achieve different types of looks. For example, we used Point Light for the Lamps and Ceiling Lights to create a realistic volumetric look, and for some dynamic lights that needed to be scripted or animated I used 2D Sprite Light with the help of custom Emission Maps for each frame.",
+      },
+      {
+        id: 14,
+        title: "Animation",
+      },
+      {
+        id: 15,
+        Mdescription:
+          "Adding animation to player’s movements adds yet another layer of immersion to the game. For controlling what animation plays at what time can be set using Unity’s inbuilt Animator and Animation Controller.",
+      },
+      {
+        id: 16,
+        styledDescription: [
+          {
+            id: 1,
+            title: "A. Creating Animations",
+            description:
+              "First we need to make all animations by inserting the animation frames with a fixed delay that will create a sense of motion. ",
+            imageUrl: require("../../assets/Rishi/rishigif.gif"),
+          },
+        ],
+      },
+      {
+        id: 17,
+        imageUrl: require("../../assets/Rishi/rishi6.png"),
+      },
+      {
+        id: 18,
+        Mdescription: "Dope Sheet for the animation of Barrel Explosion",
+      },
+      {
+        id: 19,
+        Mdescription:
+          "<b>B.	Making Animations Play:</b> We cannot just set animations to play randomly, instead we want to play them when something is triggered or when something moves. To achieve that I used Unity’s Animator Controller in which we can define a flow of different animations and set the parameters that will trigger the set animation that we can later modify in the C# Scripts.",
+      },
+      {
+        id: 20,
+        imageUrl: require("../../assets/Rishi/rishi7.png"),
+      },
+      {
+        id: 21,
+        Mdescription: "Animator Flow for the Player Movement",
       },
     ],
   },
@@ -262,7 +376,7 @@ const team_members = [
     contribution: [
       {
         id: 0,
-        description:
+        Mdescription:
           "Scripting of all the enemies in the game using C# language in unity because C#  is a general purpose language that is so versatile that it can reasonably be used as a scripting language in a game engine making the game easier to run on various platforms.",
       },
       {
@@ -270,13 +384,8 @@ const team_members = [
         title: "Description of my contribution",
       },
       {
-        id: 2,
-        description: "1)	Creation of nomal enemy with normal and basic attacks",
-      },
-      {
         id: 3,
-        description:
-          "2)	Creation of a enemy using slight hint of machine learning, AI",
+        Mdescription: "Creation of a enemy using slight hint of AI",
       },
       {
         id: 4,
@@ -288,7 +397,7 @@ const team_members = [
       },
       {
         id: 6,
-        description:
+        Mdescription:
           "My field of work is adding a little hint of Artificial intelligence in this enemy to make the game more challenging. ",
       },
       {
@@ -297,7 +406,7 @@ const team_members = [
       },
       {
         id: 8,
-        description:
+        Mdescription:
           "Along with various difficult platform to increase the challenge for the player this enemy was created to analyse the player position at a particular time and then jump from one its particular location to the position where the player is and then after the attack jump back to a certain distance to avoid any damage from the player. ",
       },
       {
@@ -306,7 +415,7 @@ const team_members = [
       },
       {
         id: 10,
-        description:
+        Mdescription:
           "The enemy here is able to detect the player’s range i.e if the player is within the range of its jump ",
       },
       {
@@ -315,7 +424,7 @@ const team_members = [
       },
       {
         id: 12,
-        description: "then the it calculates the position",
+        Mdescription: "then the it calculates the position",
       },
       {
         id: 13,
@@ -323,7 +432,7 @@ const team_members = [
       },
       {
         id: 14,
-        description: "and then makees its jump",
+        Mdescription: "and then makees its jump",
       },
       {
         id: 15,
@@ -331,7 +440,7 @@ const team_members = [
       },
       {
         id: 16,
-        description:
+        Mdescription:
           "Along with that I have decided to add a timer of a few sec after which the same process will follow again and again making the player push its limits.",
       },
       {
@@ -340,7 +449,7 @@ const team_members = [
       },
       {
         id: 18,
-        description:
+        Mdescription:
           "What makes this enemy interesting is the auto position detection ability of the player. So the only way to avid being hit by this enemy would be running away from its range else eliminating the same. ",
       },
     ],
@@ -355,35 +464,75 @@ const team_members = [
     email: "mailto:rupak.swami2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
     profile: "https://www.w3schools.com/howto/img_avatar.png",
-    description: "Rupak Description",
+    description:
+      "I’m currently pursuing a Bachelor's degree with a major in Computer Science. I’m a Web Developer and I love working on diverse projects and technologies. I am skilled in C/C++, Python, Web Designing, Cryptography and IoT. I have worked on various projects on real-life problems using blockchain, cryptography and speech recognition. Always seeking new learning experiences and making friends on the way.",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        Mdescription:
+          "My role in this project was to design the mechanics and different abilities of the Crab (enemy). During this project I created an AI script for the Crab, which includes the ability to find and follow the player, shoot orbs, give and receive damage to and from the player and die or (possibly) kill the hero.",
       },
       {
         id: 1,
-        description: "description0",
+        title: "My Contribution",
       },
       {
         id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        Mdescription:
+          "I used <b>C# scripts</b> to create the AI and spawn the orbs. This includes:",
       },
       {
         id: 3,
-        title: "title1",
+        Mdescription: "1.	Selecting Detect, Attack and Escape Range.",
       },
       {
         id: 4,
-        description: "description1",
+        imageUrl: require("../../assets/Rupak/rupak1.png"),
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        Mdescription:
+          "Detect Range: where Crab detects the player<br>Attack Range: where Crabs starts attacking the player<br>Escape Range: where Crabs starts to retreat when the player comes too near",
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        Mdescription: "2.	Following and attacking player when in range",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Rupak/rupak2.png"),
+      },
+      {
+        id: 8,
+        imageUrl: require("../../assets/Rupak/rupak3.png"),
+      },
+      {
+        id: 9,
+        Mdescription: "3.	Turning the Crab",
+      },
+      {
+        id: 10,
+        imageUrl: require("../../assets/Rupak/rupak4.png"),
+      },
+      {
+        id: 11,
+        imageUrl: require("../../assets/Rupak/rupak5.png"),
+      },
+      {
+        id: 12,
+        Mdescription: "4.	Killing the Crab or the Hero",
+      },
+      {
+        id: 13,
+        imageUrl: require("../../assets/Rupak/rupak6.png"),
+      },
+      {
+        id: 14,
+        imageUrl: require("../../assets/Rupak/rupak7.png"),
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/Rupak/rupak8.png"),
       },
     ],
   },
@@ -399,20 +548,64 @@ const team_members = [
       "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
     profile:
       "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
-    description: "Hey, my name is Karthikeyan Sugavanan, I am team member of the “Project G” group where we were given the task to design a 2D game from scratch as our project.",
-      contribution: [
+    description:
+      "Hey , my name is Karthikeyan Sugavanan and I am currently a student at VIT Chennai pursing BTech in Computer Science and Engineering . I am an enthusiastic and adventures person who shows interest towards learning new subjects and other topics related to the field of computer science and the Internet and improve my skills. I have developed various frontend and backend projects  using HTML, CSS, and JavaScript for frontend and C/C++, Java, Python for backend respectively. ",
+    contribution: [
+      {
+        id: 0,
+        Mdescription:
+          "I have been assigned the role of a C# Enemy Script Writer. As an Enemy script writer, my job is to utilize my skills and bring the game to life by creating a powerful enemy which can give an uphill battle for the player.",
+      },
+      {
+        id: 1,
+        title: "Description of my Contribution",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "I have used Unity and Visual Studios C# to create an octopus like alien called the “Octopus” , which can float in space . The Octopus is coded to patrol the given area , and will attack upon the player entering the area .",
+      },
+      {
+        id: 3,
+        imageUrl: require("../../assets/Karthik/karthik1.png"),
+      },
       {
         id: 4,
-        description: "I took the role of an Enemy attack animator and visual sound effects editor for this Computer science graphics project. ",
+        title: "The Features of the Octopus",
       },
       {
         id: 5,
-        description: "As an Enemy attack animator / script writer for the game, my job is to utilize my skills and bring the game to life by allowing the user to interact with the game as the player and face the more powerful enemies, my job is to provide different enemies with different powers which can cause harm and also kill the player. The enemies are designed to freely patrol the area and eliminate any player with different powers and weapons or follow the player who enters the area. For this concept of enemy attacking animation the concept and technique of morphing has been used in the game, which allows the animation to be more real like feel and vibe while coming in contact with the enemies. This way I ensure that user can has a more enthusiastic feel with game while trying to fight against the powerful enemies.",
+        heading: "1.	Float and attack from air",
       },
       {
         id: 6,
-        description: "And as a Visual sound effects editor, my job is to design a script with sound effects which will be played upon a triggering situation in the game, which provide the real vide and feel for the game and also keeps the user in touch/focused with the game. For these sound effects, Blender has been used in the game. As a sound editor, I have to find and analyse every situation in the game which requires the appropriate sound effect which provides an audio feedback to the user as sound gives feedback to the player, often in addition to visual feedback."
-      }
+        imageUrl: require("../../assets/Karthik/karthik2.png"),
+      },
+      {
+        id: 7,
+        heading:
+          "2.	Throw acid balls at the player which will reduce the players health",
+      },
+      {
+        id: 8,
+        imageUrl: require("../../assets/Karthik/karthik3.png"),
+      },
+      {
+        id: 9,
+        heading: "3.	Maintain safe distance from a player .",
+      },
+      {
+        id: 10,
+        imageUrl: require("../../assets/Karthik/karthik4.png"),
+      },
+      {
+        id: 11,
+        heading: "4.	Create acid pond which reduces the players health",
+      },
+      {
+        id: 12,
+        imageUrl: require("../../assets/Karthik/karthik5.png"),
+      },
     ],
   },
 ];

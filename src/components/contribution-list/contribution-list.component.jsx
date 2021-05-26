@@ -15,7 +15,7 @@ export const ContributionList = (props) => {
       ) : (
         <div></div>
       )}
-            {props.contribution.heading ? (
+      {props.contribution.heading ? (
         <div
           className="contri-heading"
           data-aos="slide-left"
@@ -32,7 +32,9 @@ export const ContributionList = (props) => {
           data-aos="slide-left"
           data-aos-duration="500"
         >
-          {props.contribution.description}
+          <div
+            dangerouslySetInnerHTML={{ __html: props.contribution.description }}
+          />
         </div>
       ) : (
         <div></div>
@@ -43,7 +45,11 @@ export const ContributionList = (props) => {
           data-aos="slide-left"
           data-aos-duration="500"
         >
-          {props.contribution.Mdescription}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: props.contribution.Mdescription,
+            }}
+          />
         </div>
       ) : (
         <div></div>
