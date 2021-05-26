@@ -3,7 +3,7 @@ import "./aboutpage.styles.scss";
 import team_members from "./aboutpage.data.js";
 import { CardList } from "../../components/card-list/card-list.component";
 import { Header } from "../../components/header/header.component";
-import Header_image from "../../assets/about.jpg";
+import Header_image from "../../assets/about-bg.jpg";
 class Aboutpage extends React.Component {
   constructor() {
     super();

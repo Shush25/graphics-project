@@ -22,7 +22,7 @@ export const ProfilePage = (props) => {
           <img
             className="profile-image"
             alt={team_members[currentUser].name}
-            src={team_members[currentUser].imageUrl}
+            src={team_members[currentUser].profile}
           />
         </div>
         <div className="full-content-container">

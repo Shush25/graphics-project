@@ -10,6 +10,18 @@
   max-width: 960px;
 }
 
+.contri-heading {
+  font-size: 1.4rem;
+  font-family: "Fira Sans";
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  max-width: 960px;
+}
+
 .contri-image-container {
   text-align: center;
   margin: auto;
@@ -21,7 +33,7 @@
   max-width: 100%;
   align-items: center;
 }
-.contri-para {
+.contri-mainpara {
   font-size: 1.1rem;
   letter-spacing: 0.2px;
   font-weight: 400;
@@ -30,5 +42,17 @@
   text-align: left;
   margin-right: auto;
   margin-left: auto;
+  max-width: 960px;
+}
+
+.contri-para {
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: 160px;
   max-width: 960px;
 }

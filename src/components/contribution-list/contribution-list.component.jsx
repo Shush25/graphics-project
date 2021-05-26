@@ -15,6 +15,17 @@ export const ContributionList = (props) => {
       ) : (
         <div></div>
       )}
+            {props.contribution.heading ? (
+        <div
+          className="contri-heading"
+          data-aos="slide-left"
+          data-aos-duration="500"
+        >
+          {props.contribution.heading}
+        </div>
+      ) : (
+        <div></div>
+      )}
       {props.contribution.description ? (
         <div
           className="contri-para"
@@ -22,6 +33,17 @@ export const ContributionList = (props) => {
           data-aos-duration="500"
         >
           {props.contribution.description}
+        </div>
+      ) : (
+        <div></div>
+      )}
+      {props.contribution.Mdescription ? (
+        <div
+          className="contri-mainpara"
+          data-aos="slide-left"
+          data-aos-duration="500"
+        >
+          {props.contribution.Mdescription}
         </div>
       ) : (
         <div></div>

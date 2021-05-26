@@ -18,7 +18,7 @@ export const Card = (props) => (
             <img
               className="imgsty"
               alt={props.member.name}
-              src={props.member.imageUrl}
+              src={props.member.profile}
               data-aos="custom-slideIn"
               data-aos-duration="1100"
             />

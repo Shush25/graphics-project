@@ -3,7 +3,7 @@ import "./homepage.styles.scss";
 
 import { Header } from "../../components/header/header.component";
 
-import Header_image from "../../assets/home.jpg";
+import Header_image from "../../assets/home-bg.gif";
 
 const Homepage = () => (
   <div className="homepage">

@@ -55,7 +55,7 @@
           display: block;
           background-color: rgba(255, 255, 255, 0.762);
           .options {
-            color: #d94f5c;
+            color: gold;
           }
           .dropdown-content {
             display: block;
@@ -66,7 +66,7 @@
               margin-top: 20px;
               color: grey;
               &:hover {
-                color: #d94f5c;
+                color: gold;
               }
             }
           }
@@ -92,7 +92,7 @@
       }
 
       &:hover a {
-        color: #d94f5c;
+        color: gold;
       }
 
       &:not(:last-child) {

@@ -7,6 +7,7 @@ const team_members = [
     github: "https://github.com/Shush25",
     linkdin: "https://www.linkedin.com/in/shushant-kumar-singh-bb016b1b6/",
     insta: "",
+    profile:"https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
     imageUrl:
       "https://lh3.googleusercontent.com/-DdxNGQg4hPbEmzbCmR08sUX9cuPu1NPQ1wsXmnWo4mt-yPL-wsP8zVx2S9_xDc_ezYdZpX8RmkYdWmSiJUmOt3ZDjFyLyrF1cduSH14E3LmDal786A5Y6PzUgI7xrn6sv7yv8PWjA",
     description: "Shushant Desicription",
@@ -73,12 +74,14 @@ const team_members = [
     insta: "",
     imageUrl:
       "https://lh3.googleusercontent.com/ARVj1C0lnGyiwERJZWQXMfzG-gBbQDPm3zzH9qw1RNXvhMVyp31hzFrb1IpLJtBBdouGffMhu2r_6gUeQzwivrwUpdXV0wxgC1cuZmPFB-GQeZwouXJKIMJ8KsL2NmYINwb2yjDufw",
+    profile:
+      "https://lh3.googleusercontent.com/pw/ACtC-3cfQFLV-FVodvi6EAsCxGnc_zuQ41gqQqVNVfwXwLoEaUw75k6YojIRfgjszqv_KQOi6rguAU-Jb2oBjCy3Z-840vHyoWc4IuK5OPktDDojNh7SqrzhlvK6Z4i82HK_U-4c0EWTJsqd4ndKbAA8CsRYLA=s268-no?authuser=0",
     description:
       "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. I’m a React Developer and ML enthusiast who loves to learn new skills and technologies. Always willing to innovate new things which can help improve the existing technologies. Proficient in React, React-Native, Firebase, C/C++, Java and MySQL. Have developed various projects on real-life problems using React, React-Native and integrated into Machine Learning it.",
     contribution: [
       {
         id: 0,
-        description:
+        Mdescription:
           "My role in this project is to design the hero and different types of enemies along with the various props and artifacts used in the game using Photoshop. Along with that I did the world building of the game in Unity, where I designed the map for the game and did the graphics and level designing. I also developed the interaction of these props with each other and the game.",
       },
       {
@@ -87,72 +90,56 @@ const team_members = [
       },
       {
         id: 2,
-        description:
+        Mdescription:
           "1) I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
-        id: 3,
-        title: "I) Creation of the hero using photoshop and pixel art method:",
-      },
-      {
-        id: 4,
-        imageUrl: require("../../assets/apoorv1.png"),
-      },
-      {
         id: 5,
-        title: "II) Creation of Different Enemies",
+        heading: "I) Creation of Different Enemies using Pixel Art method: ",
+      },
+      {
+        id: 6,
+        description: "(i) Crab Enemy: This enemy will move only in x-axis of the plane."
       },
       {
         id: 7,
-        imageUrl: require("../../assets/apoorv2.png"),
+        imageUrl: require("../../assets/Apoorv/crab.png"),
+      },
+      {
+        id: 6,
+        description: "(ii) Jumper Enemy: This enemy will move only in both x-axis and y-axis of the plane."
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Apoorv/jumper.png"),
+      },
+      {
+        id: 6,
+        description: "(iii) Octopus Enemy: This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane."
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Apoorv/octopus.png"),
       },
       {
         id: 8,
-        title: "III) Creating the level Design for the Ground: ",
+        heading: "II) Creating the level Design for the Ground: ",
       },
       {
         id: 9,
-        imageUrl: require("../../assets/apoorv3.png"),
+        imageUrl: require("../../assets/Apoorv/platform1.png"),
       },
       {
         id: 10,
-        imageUrl: require("../../assets/apoorv4.png"),
-      },
-      {
-        id: 11,
-        imageUrl: require("../../assets/apoorv5.png"),
-      },
-      {
-        id: 12,
-        imageUrl: require("../../assets/apoorv6.png"),
+        imageUrl: require("../../assets/Apoorv/platform2.png"),
       },
       {
         id: 13,
-        title: "IV) Various Props for adding details: ",
-      },
-      {
-        id: 14,
-        title: "i. Lamp",
+        heading: "III) Various Props for adding details: ",
       },
       {
         id: 15,
-        imageUrl: require("../../assets/apoorv7.png"),
-      },
-      {
-        id: 16,
-        title: "ii. Explosive Barrel",
-      },
-      {
-        id: 17,
-        imageUrl: require("../../assets/apoorv8.png"),
-      },
-      {
-        id: 18,
-        title: "iii. Lava",
-      },
-      {
-        id: 19,
-        title: "iv. Stone",
+        imageUrl: require("../../assets/Apoorv/props.png"),
       },
       {
         id: 20,
@@ -169,6 +156,7 @@ const team_members = [
     insta: "",
     email: "mailto:divyanu.baheti2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    profile: "https://www.w3schools.com/howto/img_avatar.png",
     description: "Divyanu Discription",
     contribution: [
       {
@@ -211,6 +199,8 @@ const team_members = [
     email: "mailto:rishi.mungia2019@vitstudent.ac.in",
     imageUrl:
       "https://lh3.googleusercontent.com/pw/ACtC-3c4cg49DSJfZ5KOYAEuipus930DTLm8eszaUZZc0W7jIC1VWuiQ4wwRpDAIDwSwGMkkXJuwSasnquuNlpRCUMFDIrY0gvELxU1_NKl1500ZmqBwX2J1Cxqckc36BrxZ_8YrtgU9xV-FpNQmSNmPtibM=s657-no?authuser=0",
+    profile:
+      "https://lh3.googleusercontent.com/pw/ACtC-3c4cg49DSJfZ5KOYAEuipus930DTLm8eszaUZZc0W7jIC1VWuiQ4wwRpDAIDwSwGMkkXJuwSasnquuNlpRCUMFDIrY0gvELxU1_NKl1500ZmqBwX2J1Cxqckc36BrxZ_8YrtgU9xV-FpNQmSNmPtibM=s657-no?authuser=0",
     description: "Rishi Description",
     contribution: [
       {
@@ -252,6 +242,7 @@ const team_members = [
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
     email: "mailto:ashish.das2019@vitstudent.ac.in",
     imageUrl: require("../../assets/ashish.jpeg"),
+    profile: require("../../assets/ashish.jpeg"),
     description: "Ashish Description",
     contribution: [
       {
@@ -348,6 +339,7 @@ const team_members = [
     insta: "",
     email: "mailto:rupak.swami2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
+    profile: "https://www.w3schools.com/howto/img_avatar.png",
     description: "Rupak Description",
     contribution: [
       {
@@ -390,7 +382,9 @@ const team_members = [
     email: "mailto:karthikeyan.sugavanan2019@vitstudent.ac.in",
     imageUrl:
       "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
-      description: "Hey, my name is Karthikeyan Sugavanan, I am team member of the “Project G” group where we were given the task to design a 2D game from scratch as our project.",
+    profile:
+      "https://lh3.googleusercontent.com/pw/ACtC-3fCmFsxzjQBMPxEnQQUwz4s7Kikc51BN65R4tt-C2glSys-dzgHSz3_HpupRgFePE7s2cS5uDGda5VgCbejwKxj6u0kObrrNdW7M4I9hweDbGObM4XJ1fQIqOXYy9HIx6kD489GE-LmZzNgiHudlmoB",
+    description: "Hey, my name is Karthikeyan Sugavanan, I am team member of the “Project G” group where we were given the task to design a 2D game from scratch as our project.",
       contribution: [
       {
         id: 4,
