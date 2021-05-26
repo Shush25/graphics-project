@@ -140,7 +140,7 @@ const team_members = [
       {
         id: 0,
         Mdescription:
-          "My role in this project is to design the hero and different types of enemies along with the various props and artifacts used in the game using Photoshop. Along with that I did the world building of the game in Unity, where I designed the map for the game and did the graphics and level designing. I also developed the interaction of these props with each other and the game.",
+          "My role in this project is to design different types of enemies along with the various props and artifacts used in the game using Photoshop. Along with that I did the world building of the game in Unity, where I designed the map for the game and did the graphics and level designing. I also developed the interaction of these props with each other and the game.",
       },
       {
         id: 1,
@@ -149,7 +149,11 @@ const team_members = [
       {
         id: 2,
         Mdescription:
-          "1) I have used Photoshop to design the various props. I used the concept of Nearest-Neighbour to get pixelated images. Pixel Art helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
+          "<b>1)</b> I have used <b>Photoshop</b> to design the various props. I used the concept of <b>Nearest-Neighbour Algorithm</b> to get pixelated images. <b>Pixel Art</b> helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Apoorv/NNA.jpg"),
       },
       {
         id: 5,
@@ -158,7 +162,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(i) Crab Enemy: This enemy will move only in x-axis of the plane.",
+          "<b>(i) Crab Enemy:</b> This enemy will move only in x-axis of the plane.",
       },
       {
         id: 7,
@@ -167,7 +171,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(ii) Jumper Enemy: This enemy will move only in both x-axis and y-axis of the plane.",
+          "<b>(ii) Jumper Enemy:</b> This enemy will move only in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -176,7 +180,7 @@ const team_members = [
       {
         id: 6,
         description:
-          "(iii) Octopus Enemy: This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane.",
+          "<b>(iii) Octopus Enemy:</b> This enemy will move only in a zig-zag way in both x-axis and y-axis of the plane.",
       },
       {
         id: 7,
@@ -203,9 +207,58 @@ const team_members = [
         imageUrl: require("../../assets/Apoorv/props.png"),
       },
       {
-        id: 20,
-        description: "2) Assembly the props and Setting up the Game World:",
+        id: 13,
+        heading: "III) New lava image with animation to show its movement: ",
       },
+      {
+        id: 15,
+        imageUrl: require("../../assets/Apoorv/lava.gif"),
+      },
+      {
+        id: 20,
+        title: "2) Assembly the props and Setting up the Game World:",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Sketch Design for the Map: </b>For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop. So, this was the map after 2 or 3 tries which every voted upon to be used as the Map in the Game.",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/HandMap.jpg"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Map of the Game in Unity: </b>After combining all the props made through Photoshop according to the Map shown above this was the final output. I have used various scaling factors in the X and Y axis to make the Map look even and did the level designing next.",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/UnityMap.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Addition of 2D Collider in Unity: </b>For assets in a 2D project to have a physical presence in the Scene and be able to interact with each other, they must have a 2D Collider. A 2D Collider is a component that helps define an asset’s physical shape to determine how it will interact with other colliders in a Scene.",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "     (i)	Now adding <b>Box Collider 2D</b> in the Map: Box Collider is resizable <b>square shape</b> container. I have used it in various parts of the Game like:",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/BCollider.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "     (i)	Now adding <b>Polygon Collider 2D</b> in the Map: Box Collider is resizable polygon shape container. This one is quite complex since not all pictures are square shape. So to overcome this problem I have used polygon Collider 2D in various parts of the Game like:",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Apoorv/PCollider.png"),
+      },       
     ],
   },
   {
@@ -218,35 +271,212 @@ const team_members = [
     email: "mailto:divyanu.baheti2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
     profile: "https://www.w3schools.com/howto/img_avatar.png",
-    description: "Divyanu Discription",
+    description: "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. A very curious person with an ambition to contribute to the society and make the world a better place through the means of Computer Science. Proficient in  Web Devlopement, NodeJS, C/C++, PHP, Java, MySQL, MongoDB. Currently working on a Project based on ML.",
     contribution: [
       {
         id: 0,
-        title: "title0",
+        title: "My role in the project",
       },
       {
         id: 1,
-        description: "description0",
-      },
-      {
-        id: 2,
-        imageUrl: require("../../assets/home-github.jpg"),
+        description: "My role in this project is to design our Hero (Player) and various weapons our player has in its armoury along with the various props and artefacts used in the game using Photoshop. Along with that I trained my ML model to predict the difficulty  of our game and I have made the emission maps that were required for the lighting of various elements that is staged in our game.",
       },
       {
         id: 3,
-        title: "title1",
+        title: "Description of my contribution.",
       },
       {
         id: 4,
-        description: "description1",
+        Mdescription: "A.	I have used <b>Photoshop</b> to design the various props. I used the concept of <b>Nearest-Neighbour</b> to get pixelated images. <b>Pixel Art</b> helps store a large amount of detail into the image. Thorough which we can give utmost attention to details without worrying about the distortion. Since in the nearest neighbour we get sharp edges which helps in storing data in very small sizes and then scale them into desired sizes.",
       },
       {
         id: 5,
-        imageUrl: require("../../assets/home-why.jpg"),
+        heading: "1)	Creation of the hero using photoshop and pixel art method: ",
       },
       {
         id: 6,
-        imageUrl: require("../../assets/home-why.jpg"),
+        description:
+          "a)	Hero Still Position",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Divyanu/p1.png"),
+      },
+      {
+        id: 6,
+        description:
+          "b)	Hero Jumping Roll Position",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Divyanu/p2.png"),
+      },
+      {
+        id: 6,
+        description:
+          "c)	Hero Running Shooting Position",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Divyanu/p3.png"),
+      },
+      {
+        id: 6,
+        description:
+          "d)	HERO Shoot-Up Position",
+      },
+      {
+        id: 7,
+        imageUrl: require("../../assets/Divyanu/p4.png"),
+      },
+      {
+        id: 8,
+        heading: "2)	Creation of the Hero’s Weapons:",
+      },
+      {
+        id: 6,
+        description:
+          "a)	Machine Gun",
+      },
+      {
+        id: 9,
+        imageUrl: require("../../assets/Divyanu/g1.png"),
+      },
+      {
+        id: 6,
+        description:
+          "b)	Sword",
+      },
+      {
+        id: 9,
+        imageUrl: require("../../assets/Divyanu/g2.png"),
+      },
+      {
+        id: 6,
+        description:
+          "c)	Shot-Gun",
+      },
+      {
+        id: 9,
+        imageUrl: require("../../assets/Divyanu/g3.png"),
+      },
+      {
+        id: 13,
+        heading: "3)	Creating the Stones and plants for the Ground:",
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/Divyanu/pr.png"),
+      },
+      {
+        id: 13,
+        heading: "4)	Creating Heaven for the Game:",
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/Divyanu/br.png"),
+      },
+      {
+        id: 13,
+        heading: "5)	Creating Acid:",
+      },
+      {
+        id: 15,
+        imageUrl: require("../../assets/Divyanu/ac.png"),
+      },
+      {
+        id: 20,
+        title: "B) Implementing ML and Training My ML model with the data from the game:",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<b>Started learning ML to implement Regression concept in this game and learnt various things about ML. By keeping it short I would say I made this game automated and self sufficient due to which the game itself can remodel its difficulty taking certain parameters into consideration.",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Made Use of RandomRegressorModel :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/rfr.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Some Important Libraries Used :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/import.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>The Parameteres Used were :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/param.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Made a Scatter Graph by applying various Python Functions:-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/sc.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Trained the Model :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/sk.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Performed Various Cross-Validations :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/cr.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Improved My Model by Using Hyperparametres :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/hp.png"),
+      },
+      {
+        id: 2,
+        Mdescription:
+          "<u>Final Model Score :-</u>",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/score.png"),
+      },
+      {
+        id: 20,
+        title: "C) Made Emission Maps for Lighting:",
+      },
+      {
+        id: 2,
+        Mdescription:
+          "Did some lighting on the lamps and tubelights and made some emission maps which is used in   player lighting . ",
+      },
+      {
+        id: 0,
+        imageUrl: require("../../assets/Divyanu/light.png"),
       },
     ],
   },
