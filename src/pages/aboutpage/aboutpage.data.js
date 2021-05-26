@@ -2,7 +2,7 @@ const team_members = [
   {
     id: 0,
     name: "Shushant Kumar Singh",
-    Job: "React Developer, C# Coder",
+    Job: "React Developer, Weapon & Powerup, Sound Design",
     email: "mailto:shushantkumar.singh2019@vitstudent.ac.in",
     github: "https://github.com/Shush25",
     linkdin: "https://www.linkedin.com/in/shushant-kumar-singh-bb016b1b6/",
@@ -67,7 +67,7 @@ const team_members = [
   {
     id: 1,
     name: "Apoorv Yadav",
-    Job: "React Developer, Unity Game Developer, Graphics Designer",
+    Job: "React Developer, Level Designer, Texture Artist",
     email: "mailto:apoorv.yadav2019@vitstudent.ac.in",
     github: "https://github.com/Apoorv-17",
     linkdin: "https://www.linkedin.com/in/apoorv-yadav-1a54571b7/",
@@ -150,7 +150,7 @@ const team_members = [
   {
     id: 2,
     name: "Divyanu Baheti",
-    Job: "ML Analyst, Graphics Designer",
+    Job: "ML Analyst, Texture Artist",
     github: "https://github.com/Divyanu",
     linkdin: "https://www.linkedin.com/in/divyanu-baheti-23a5a0185",
     insta: "",
@@ -192,7 +192,7 @@ const team_members = [
   {
     id: 3,
     name: "Rishi Mungia",
-    Job: "Unity Game Developer, C# Coder",
+    Job: "Player Mechanics, Animation & Post-Processing",
     github: "https://github.com/rishimungia",
     linkdin: "https://www.linkedin.com/in/rishi-mungia-7281051b5",
     insta: "",
@@ -236,7 +236,7 @@ const team_members = [
   {
     id: 4,
     name: "Ashish Das",
-    Job: "C# Coder, AI Analyst",
+    Job: "Jumper Mechanics",
     github: "https://github.com/Sugar3201",
     linkdin: "https://www.linkedin.com/in/ashish-das-6a7960200",
     insta: "https://instagram.com/_sugar3201?igshid=18ysviofqst8m",
@@ -333,7 +333,7 @@ const team_members = [
   {
     id: 5,
     name: "Rupak",
-    Job: "Sprite Animator, C# Coder",
+    Job: "Crab Mechanics",
     github: "https://github.com/rupak-20",
     linkdin: "http://www.linkedin.com/in/rupak-swami-071468190",
     insta: "",
@@ -375,7 +375,7 @@ const team_members = [
   {
     id: 6,
     name: "Karthikeyan Sugavanan",
-    Job: "Blender, Sprite Animator",
+    Job: "Octopus Mechanics",
     github: "https://github.com/KarthikeyanSugavanan",
     linkdin: "https://www.linkedin.com/in/karthikeyan-sugavanan-01677718b",
     insta: "",
