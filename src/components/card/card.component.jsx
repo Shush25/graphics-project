@@ -23,7 +23,7 @@ export const Card = (props) => (
               data-aos-duration="1100"
             />
             <h2
-              style={{fontSize: "1.5rem"}}
+              style={{ fontSize: "1.5rem" }}
               className="front_text-header"
               data-aos="custom-slideUp"
               data-aos-duration="1800"
@@ -78,7 +78,7 @@ export const Card = (props) => (
           </div>
           <div className="ProfileButton">
             <a
-              href={`/graphics-project/profile/${props.member.id}`}
+              href={`/graphics-project/about/${props.member.id}`}
               className="Profile-link"
             >
               Profile

@@ -28,7 +28,7 @@ class App extends React.Component {
               />
               <Route
                 exact
-                path="/graphics-project/profile/:userId"
+                path="/graphics-project/about/:userId"
                 component={ProfilePage}
               />
             </Switch>
