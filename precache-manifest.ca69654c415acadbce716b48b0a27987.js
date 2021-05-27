@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01911109d5bedd5dd21e8f922f4e4b35",
+    "revision": "4f9912db2e5a400ddfbcbf61d293ac73",
     "url": "/graphics-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graphics-project/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "8aa852bb7f6dbd6c99ee",
+    "revision": "f7734c4c1f23182c65a7",
     "url": "/graphics-project/static/css/main.35ef300e.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graphics-project/static/js/3.9671b4d9.chunk.js"
   },
   {
-    "revision": "8aa852bb7f6dbd6c99ee",
-    "url": "/graphics-project/static/js/main.05db43b2.chunk.js"
+    "revision": "f7734c4c1f23182c65a7",
+    "url": "/graphics-project/static/js/main.52ded66a.chunk.js"
   },
   {
     "revision": "d0769f09b3c6e4e459ea",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graphics-project/static/media/HandMap.3ba049f7.jpg"
   },
   {
-    "revision": "0f803d1c98be6ccf15faf685a462ef73",
-    "url": "/graphics-project/static/media/NNA.0f803d1c.jpg"
+    "revision": "95ddcb5f8020ca83814c4ea65b827420",
+    "url": "/graphics-project/static/media/NNA.95ddcb5f.jpg"
   },
   {
     "revision": "4a74e3c1989016db97f195874bca3f7f",
