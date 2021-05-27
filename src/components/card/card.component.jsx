@@ -1,5 +1,6 @@
 import React from "react";
 import "./card.styles.scss";
+import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
@@ -23,7 +24,7 @@ export const Card = (props) => (
               data-aos-duration="1100"
             />
             <h2
-              style={{fontSize: "1.5rem"}}
+              style={{ fontSize: "1.5rem" }}
               className="front_text-header"
               data-aos="custom-slideUp"
               data-aos-duration="1800"
@@ -77,12 +78,9 @@ export const Card = (props) => (
             </div>
           </div>
           <div className="ProfileButton">
-            <a
-              href={`/graphics-project/profile/${props.member.id}`}
-              className="Profile-link"
-            >
+            <Link to={`/about/${props.member.id}`} className="Profile-link">
               Profile
-            </a>
+            </Link>
           </div>
         </div>
       </div>

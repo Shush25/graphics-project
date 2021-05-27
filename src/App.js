@@ -9,6 +9,7 @@ import AboutPage from "./pages/aboutpage/aboutpage.component";
 import { ProfilePage } from "./pages/profilepage/profilepage.component";
 import Menu from "./components/menu/menu.component";
 import Footer from "./components/footer/footer.component";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 AOS.init({ easing: "ease-in-out", once: true });
 
@@ -16,21 +17,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename="/graphics-project">
+          <ScrollToTop />
           <div>
             <Menu />
             <Switch>
-              <Route exact path="/graphics-project" component={HomePage} />
-              <Route
-                exact
-                path="/graphics-project/about"
-                component={AboutPage}
-              />
-              <Route
-                exact
-                path="/graphics-project/profile/:userId"
-                component={ProfilePage}
-              />
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/about" component={AboutPage} />
+              <Route exact path="/about/:userId" component={ProfilePage} />
             </Switch>
             <Footer />
           </div>

@@ -58,6 +58,10 @@
     img {
       max-width: 100%;
       position: relative;
+      align-self: center;
+      display: block;
+      width: 100%;
+      margin: auto;
     }
     .para {
       color: black;
