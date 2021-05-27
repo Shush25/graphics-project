@@ -1,5 +1,6 @@
 import React from "react";
 import "./card.styles.scss";
+import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
@@ -77,12 +78,9 @@ export const Card = (props) => (
             </div>
           </div>
           <div className="ProfileButton">
-            <a
-              href={`/graphics-project/about/${props.member.id}`}
-              className="Profile-link"
-            >
+            <Link to={`/about/${props.member.id}`} className="Profile-link">
               Profile
-            </a>
+            </Link>
           </div>
         </div>
       </div>
