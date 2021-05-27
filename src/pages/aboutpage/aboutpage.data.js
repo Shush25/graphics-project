@@ -187,7 +187,7 @@ const team_members = [
       {
         id: 2,
         Mdescription:
-          "     (i)	Now adding <b>Box Collider 2D</b> in the Map: Box Collider is resizable <b>square shape</b> container. I have used it in various parts of the Game like:",
+          "     (i)	Now adding <b>Box Collider 2D</b> in the Map: Box Collider is a resizable <b>square shape</b> container. I have used it in various parts of the Game like:",
       },
       {
         id: 0,
@@ -196,7 +196,7 @@ const team_members = [
       {
         id: 2,
         Mdescription:
-          "     (i)	Now adding <b>Polygon Collider 2D</b> in the Map: Box Collider is resizable polygon shape container. This one is quite complex since not all pictures are square shape. So to overcome this problem I have used polygon Collider 2D in various parts of the Game like:",
+          "     (i)	Now adding <b>Polygon Collider 2D</b> in the Map: Polygon Collider is a resizable polygon shape container. This one is quite complex since not all pictures are square shape. So to overcome this problem I have used polygon Collider 2D in various parts of the Game like:",
       },
       {
         id: 0,
@@ -213,7 +213,7 @@ const team_members = [
     insta: "",
     email: "mailto:divyanu.baheti2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
-    profile: "https://www.w3schools.com/howto/img_avatar.png",
+    profile: "https://lh3.googleusercontent.com/pw/ACtC-3e3brY225EdoPwg3ZEEwgleK6nNlZHoF0C0MVPjXd_tSiaDtXvdRoMfb_Bu0JW7TcLBJ0eQy9RD_9vHE5UkE4Yo9AOcmnHj5mkkXAfALLxszg6V1pERkGmhQcdVpNRm--7Fn9a-r0be6pnaZ-C7x7NFvw=s589-no?authuser=0",
     description: "I’m currently pursuing Bachelors of Technology in Computer Science from Vellore Institute of Technology, Chennai. A very curious person with an ambition to contribute to the society and make the world a better place through the means of Computer Science. Proficient in  Web Devlopement, NodeJS, C/C++, PHP, Java, MySQL, MongoDB. Currently working on a Project based on ML.",
     contribution: [
       {
@@ -678,7 +678,7 @@ const team_members = [
     insta: "",
     email: "mailto:rupak.swami2019@vitstudent.ac.in",
     imageUrl: "https://www.w3schools.com/howto/img_avatar.png",
-    profile: "https://www.w3schools.com/howto/img_avatar.png",
+    profile: "https://lh3.googleusercontent.com/pw/ACtC-3c978ULq3OlZHEd-4DeqnQzZlimv45kTkdH384JLEidtfakUP1XpLFc8BZoXj5lm6ZijrfujFkzv2IhnQpRHYs9js8x6IOhZSKI1NKytEPNVvBMb3xEW2eKwuSRfAqWWt8f6nq0h-cijBVJFJunSI4awg=s560-no?authuser=0",
     description:
       "I’m currently pursuing a Bachelor's degree with a major in Computer Science. I’m a Web Developer and I love working on diverse projects and technologies. I am skilled in C/C++, Python, Web Designing, Cryptography and IoT. I have worked on various projects on real-life problems using blockchain, cryptography and speech recognition. Always seeking new learning experiences and making friends on the way.",
     contribution: [
