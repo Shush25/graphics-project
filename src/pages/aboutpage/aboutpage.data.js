@@ -229,7 +229,21 @@ const team_members = [
       {
         id: 2,
         Mdescription:
-          "<b>Sketch Design for the Map: </b>For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop. So, this was the map after 2 or 3 tries which every voted upon to be used as the Map in the Game.",
+          "<b>Sketch Design for the Map: </b>For the World building part, I had to first make the rough sketch of the Map which I would implement using the props made through Photoshop.",
+      },
+      {
+        id: 3,
+        Mdescription:
+          "I made total 3 Maps for different levels and having different features: "
+      },
+      {
+        id: 2,
+        imageUrl: require("../../assets/Apoorv/maps.png"),
+      },
+      {
+        id: 2,
+        Mdescription: 
+          "After taking some features of all the above maps this is the final map I created."
       },
       {
         id: 0,
